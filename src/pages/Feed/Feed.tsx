@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useApp } from '../../contexts/AppContext';
 import { useFeed } from '../../hooks/useFeed';
 import { Header } from '../../components/Header';
+import { ParallaxBackground } from '../../components/ParallaxBackground';
 import { FeedGrid } from '../../components/FeedGrid';
 import { ContinueWatching } from '../../components/ContinueWatching';
 import { ErrorState } from '../../components/ErrorState';
@@ -35,6 +36,7 @@ export function FeedPage() {
 
   return (
     <div className={`${styles.feedPage} ${currentItem ? styles.feedPageWithMiniPlayer : ''}`}>
+      <ParallaxBackground />
       <Header />
 
       {error && items.length === 0 ? (

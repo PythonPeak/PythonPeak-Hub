@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useApp } from '../../contexts/AppContext';
 import { useFeed } from '../../hooks/useFeed';
 import { Header } from '../../components/Header';
+import { Hero } from '../../components/Hero';
 import { FeedGrid } from '../../components/FeedGrid';
 import { ContinueWatching } from '../../components/ContinueWatching';
 import { ErrorState } from '../../components/ErrorState';
@@ -36,6 +37,8 @@ export function FeedPage() {
   return (
     <div className={`${styles.feedPage} ${currentItem ? styles.feedPageWithMiniPlayer : ''}`}>
       <Header />
+
+      <Hero />
 
       {error && items.length === 0 ? (
         <ErrorState message={error} />

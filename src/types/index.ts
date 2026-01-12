@@ -29,13 +29,19 @@ export interface HistoryEntry {
   progress?: number;
 }
 
+export type DataMode = 'direct' | 'proxy' | 'manual';
+
 export type FilterType = 'all' | 'videos' | 'shorts';
 
 export type SortType = 'newest' | 'oldest';
 
 export interface Settings {
+  dataMode: DataMode;
+  proxyUrl: string;
+  channelId: string;
   theme: 'light' | 'dark' | 'system';
   autoplay: boolean;
+  enableFallbackClassification: boolean;
   adsEnabled: boolean;
 }
 

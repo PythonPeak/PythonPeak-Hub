@@ -102,8 +102,12 @@ export function clearHistory(): void {
 }
 
 const DEFAULT_SETTINGS: Settings = {
+  dataMode: 'direct',
+  proxyUrl: '',
+  channelId: config.youtube.channelId,
   theme: config.ui.theme.default as 'light' | 'dark' | 'system',
   autoplay: config.features.autoplay,
+  enableFallbackClassification: false,
   adsEnabled: config.features.adsEnabled,
 };
 

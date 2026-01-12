@@ -5,19 +5,29 @@
   border-radius: var(--radius-lg);
   overflow: hidden;
   cursor: pointer;
-  opacity: 0;
-  animation: cardEnter 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
   transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), 
               box-shadow 0.3s ease,
-              border-color 0.3s ease;
+              border-color 0.3s ease,
+              opacity 0.6s ease;
   border: 2px solid transparent;
   position: relative;
+  will-change: transform, opacity;
 }
 
-@keyframes cardEnter {
+/* Scroll reveal states */
+.hidden {
+  opacity: 0;
+  transform: translateY(40px) scale(0.95);
+}
+
+.visible {
+  animation: scrollReveal 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@keyframes scrollReveal {
   from {
     opacity: 0;
-    transform: translateY(40px) scale(0.9);
+    transform: translateY(40px) scale(0.95);
   }
   to {
     opacity: 1;

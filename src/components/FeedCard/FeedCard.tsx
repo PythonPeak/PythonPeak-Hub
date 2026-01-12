@@ -3,18 +3,21 @@ import { useNavigate } from 'react-router-dom';
 import { FeedItem } from '../../types';
 import { useClassification } from '../../hooks/useClassification';
 import { useApp } from '../../contexts/AppContext';
+import { useScrollReveal } from '../../hooks/useScrollReveal';
 import { config } from '../../config';
 import styles from './FeedCard.module.css';
 
 interface FeedCardProps {
   item: FeedItem;
+  index?: number;
 }
 
-export function FeedCard({ item }: FeedCardProps) {
+export function FeedCard({ item, index = 0 }: FeedCardProps) {
   const navigate = useNavigate();
   const { classifyItem } = useClassification();
   const { setSelectedKeyword } = useApp();
   const hasClassified = useRef(false);
+  const { ref, isVisible } = useScrollReveal<HTMLElement>({ threshold: 0.15 });
 
   useEffect(() => {
     if (item.type === 'unknown' && !hasClassified.current) {
@@ -59,9 +62,13 @@ export function FeedCard({ item }: FeedCardProps) {
     }
   };
 
+  const animationDelay = Math.min(index * 0.05, 0.3);
+
   return (
     <article
-      className={styles.card}
+      ref={ref}
+      className={`${styles.card} ${isVisible ? styles.visible : styles.hidden}`}
+      style={{ animationDelay: `${animationDelay}s` }}
       onClick={handleClick}
       onKeyDown={handleKeyDown}
       tabIndex={0}

@@ -11,6 +11,106 @@
  </author>
  <published>2018-01-26T15:20:07+00:00</published>
  <entry>
+  <id>yt:video:HFI6RKXUPZo</id>
+  <yt:videoId>HFI6RKXUPZo</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python file save?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=HFI6RKXUPZo"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-12T11:49:25+00:00</published>
+  <updated>2026-01-12T07:49:29+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python file save?</media:title>
+   <media:content url="https://www.youtube.com/v/HFI6RKXUPZo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/HFI6RKXUPZo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python file save in a cache writer. The Python code overwrites the file in place, so readers can see a half-written file. In Python services this creates corrupted JSON and crashes on read.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python file write, python atomic write, python cache file, python data corruption</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:uhJctVaf43A</id>
+  <yt:videoId>uhJctVaf43A</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Detect NaN That Breaks Comparisons</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=uhJctVaf43A"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-12T10:03:34+00:00</published>
+  <updated>2026-01-09T15:59:37+00:00</updated>
+  <media:group>
+   <media:title>How to Detect NaN That Breaks Comparisons</media:title>
+   <media:content url="https://www.youtube.com/v/uhJctVaf43A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/uhJctVaf43A/hqdefault.jpg" width="480" height="360"/>
+   <media:description>NaN refuses to equal itself and silently ruins checks.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, nan, float bug, howto, math, data</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ThiSwqPdAo4</id>
+  <yt:videoId>ThiSwqPdAo4</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why does this Python async job disappear?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ThiSwqPdAo4"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-12T09:40:03+00:00</published>
+  <updated>2026-01-11T11:40:22+00:00</updated>
+  <media:group>
+   <media:title>Why does this Python async job disappear?</media:title>
+   <media:content url="https://www.youtube.com/v/ThiSwqPdAo4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ThiSwqPdAo4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this Python async job disappear in production. The Python handler fires a task and returns, but the event loop may cancel it during shutdown or backpressure. In Python async APIs this loses writes and metrics.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python asyncio, python background task, python data loss, python async bug, python event loop</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:AikVXFPB9EY</id>
+  <yt:videoId>AikVXFPB9EY</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Ternary Operators: Python's BACKWARDS Syntax vs PHP!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=AikVXFPB9EY"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-12T06:50:44+00:00</published>
+  <updated>2025-12-30T15:33:20+00:00</updated>
+  <media:group>
+   <media:title>Ternary Operators: Python's BACKWARDS Syntax vs PHP!</media:title>
+   <media:content url="https://www.youtube.com/v/AikVXFPB9EY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/AikVXFPB9EY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Python's unique 'value if condition else value' vs PHP's traditional ternary! Which syntax is clearer? DEBATE TIME!</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>Python, PHP, python vs php, ternary operator, conditional expressions, syntax comparison, code comparison, programming comparison, python tricks, php tricks, programming debate, coding tips, syntax wars, elvis operator</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:LnKnqepaESg</id>
   <yt:videoId>LnKnqepaESg</yt:videoId>
   <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
@@ -923,7 +1023,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-07T02:25:43+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-12T10:05:05+00:00</updated>
   <media:group>
    <media:title>Python vs JS Merch Drop Replay Guard</media:title>
    <media:content url="https://www.youtube.com/v/hI7Mt4AVPkY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1273,7 +1373,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-05T13:21:54+00:00</published>
-  <updated>2026-01-11T10:05:08+00:00</updated>
+  <updated>2026-01-12T12:02:08+00:00</updated>
   <media:group>
    <media:title>this Keyword vs self: Object Binding CONFUSION!</media:title>
    <media:content url="https://www.youtube.com/v/Bn9biXJX-iE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2098,7 +2198,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-02T10:25:43+00:00</published>
-  <updated>2026-01-03T10:05:12+00:00</updated>
+  <updated>2026-01-12T15:05:05+00:00</updated>
   <media:group>
    <media:title>Python vs JS PII Redactor: Logs Stay Safe</media:title>
    <media:content url="https://www.youtube.com/v/7ehD3QzNzrE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2998,7 +3098,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-31T01:00:36+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-12T15:05:13+00:00</updated>
   <media:group>
    <media:title>Cosmic Octagon Field</media:title>
    <media:content url="https://www.youtube.com/v/UeNizhWeshI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -4579,7 +4679,7 @@ Combines ascending and descending loops to produce an arrow shape pointing upwar
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-25T00:06:22+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-12T10:05:18+00:00</updated>
   <media:group>
    <media:title>Turbocharge Design Diamond Symmetric Built With Python</media:title>
    <media:content url="https://www.youtube.com/v/HA2D2H4nPjY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -4806,7 +4906,7 @@ Simple but punchy console banner that frames text with repeated characters.</med
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-22T13:00:36+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-12T15:05:54+00:00</updated>
   <media:group>
    <media:title>Atomic Orbits</media:title>
    <media:content url="https://www.youtube.com/v/PQABbiZb7s8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -6159,7 +6259,7 @@ Regular dict (Python 3.7+ maintains order, but OrderedDict is explicit)</media:d
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-13T08:06:22+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-12T12:02:09+00:00</updated>
   <media:group>
    <media:title>Create Mesmerizing Lissajous Curves</media:title>
    <media:content url="https://www.youtube.com/v/oK6J-uJfVt0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -9064,7 +9164,7 @@ Comprehensions are great, but readability matters! This Code Crimes shows when t
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-29T20:36:52+00:00</published>
-  <updated>2026-01-09T20:05:07+00:00</updated>
+  <updated>2026-01-12T12:00:11+00:00</updated>
   <media:group>
    <media:title>Python Collections Defaultdict Advanced</media:title>
    <media:content url="https://www.youtube.com/v/QWt3Fje3K0U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -13372,7 +13472,7 @@ Use nullcontext when lock not needed</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-20T21:52:28+00:00</published>
-  <updated>2025-12-19T23:48:45+00:00</updated>
+  <updated>2026-01-12T12:02:08+00:00</updated>
   <media:group>
    <media:title>Split String by Delimiter via 2 Methods</media:title>
    <media:content url="https://www.youtube.com/v/TzWl0Z7Yrrw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -13678,7 +13778,7 @@ defaultdict and Counter simplify common dictionary operations and counting tasks
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-20T05:36:52+00:00</published>
-  <updated>2026-01-02T12:00:13+00:00</updated>
+  <updated>2026-01-12T12:00:04+00:00</updated>
   <media:group>
    <media:title>Python Collections Abc Iterator</media:title>
    <media:content url="https://www.youtube.com/v/ll-9K9VoEjo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>

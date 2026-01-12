@@ -48,7 +48,16 @@ export function FeedGrid({ items, isLoading }: FeedGridProps) {
     const verticalAdsCount = config.ads.banners.filter(b => b.format === 'vertical').length;
 
     visibleItems.forEach((item, index) => {
-      result.push(<FeedCard key={item.videoId} item={item} />);
+      // Add stagger delay for animation
+      const staggerDelay = Math.min(index % 12, 11) * 0.05;
+      result.push(
+        <div 
+          key={item.videoId} 
+          style={{ '--item-index': index % 12 } as React.CSSProperties}
+        >
+          <FeedCard item={item} />
+        </div>
+      );
 
       // Insert ad based on config frequency
       if (

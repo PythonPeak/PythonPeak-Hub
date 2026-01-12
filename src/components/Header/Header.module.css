@@ -2,11 +2,29 @@
   position: sticky;
   top: 0;
   z-index: var(--z-sticky);
-  background-color: var(--color-bg-primary);
+  background: linear-gradient(180deg, var(--color-bg-primary) 0%, rgba(var(--color-bg-primary-rgb, 255, 255, 255), 0.95) 100%);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--color-border);
   display: flex;
   flex-direction: column;
   padding: 0;
+  animation: slideDown 0.5s ease-out;
+}
+
+[data-theme="dark"] .header {
+  background: linear-gradient(180deg, var(--color-bg-primary) 0%, rgba(18, 18, 18, 0.95) 100%);
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .headerContent {
@@ -28,12 +46,28 @@
   color: var(--color-text-primary);
   text-decoration: none;
   flex-shrink: 0;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.logo:hover .logoImage {
+  animation: logoWiggle 0.5s ease-in-out;
+}
+
+@keyframes logoWiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-10deg); }
+  75% { transform: rotate(10deg); }
 }
 
 .logoImage {
   width: 40px;
   height: 40px;
   object-fit: contain;
+  transition: transform 0.3s ease;
 }
 
 .nav {
@@ -51,12 +85,28 @@
   font-size: var(--text-sm);
   font-weight: var(--weight-medium);
   border-radius: var(--radius-md);
-  transition: var(--transition-fast);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.navLink::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--color-accent), hsl(20, 85%, 55%));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
 }
 
 .navLink:hover {
-  background-color: var(--color-bg-hover);
-  color: var(--color-text-primary);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.navLink:hover::before {
+  opacity: 1;
 }
 
 .navLinkActive {
@@ -74,16 +124,33 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   border-radius: var(--radius-full);
   color: var(--color-text-secondary);
-  transition: var(--transition-fast);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.themeToggle::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle, var(--color-accent) 0%, transparent 70%);
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.4s ease;
 }
 
 .themeToggle:hover {
-  background-color: var(--color-bg-hover);
-  color: var(--color-text-primary);
+  color: var(--color-accent);
+  transform: rotate(180deg);
+}
+
+.themeToggle:hover::before {
+  opacity: 0.2;
+  transform: scale(1.5);
 }
 
 .searchWrapper {
@@ -100,49 +167,68 @@
   transform: translateY(-50%);
   color: var(--color-text-tertiary);
   pointer-events: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.searchWrapper:focus-within .searchIcon {
+  color: var(--color-accent);
+  transform: translateY(-50%) scale(1.1);
 }
 
 .searchInput {
   width: 100%;
   padding: var(--space-sm) var(--space-md);
-  padding-left: 40px;
+  padding-left: 44px;
   background-color: var(--color-bg-secondary);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
   font-size: var(--text-sm);
   color: var(--color-text-primary);
-  transition: var(--transition-fast);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .searchInput::placeholder {
   color: var(--color-text-tertiary);
+  transition: color 0.3s ease;
 }
 
 .searchInput:focus {
   outline: none;
   border-color: var(--color-accent);
-  box-shadow: 0 0 0 3px var(--color-accent-light);
+  box-shadow: 0 0 0 4px var(--color-accent-light), 0 10px 30px -10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.searchInput:focus::placeholder {
+  color: transparent;
 }
 
 .sortSelect {
   padding: var(--space-sm) var(--space-md);
-  padding-right: 32px;
+  padding-right: 36px;
   font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
   color: var(--color-text-primary);
   background-color: var(--color-bg-secondary);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
   cursor: pointer;
   appearance: none;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
-  background-position: right 8px center;
-  min-width: 140px;
+  background-position: right 10px center;
+  min-width: 150px;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.sortSelect:hover {
+  border-color: var(--color-accent);
 }
 
 .sortSelect:focus {
   outline: none;
   border-color: var(--color-accent);
+  box-shadow: 0 0 0 4px var(--color-accent-light);
 }
 
 .selectedKeywordBar {
@@ -150,20 +236,45 @@
   align-items: center;
   justify-content: center;
   padding: var(--space-sm) var(--space-md);
-  background-color: var(--color-bg-secondary);
+  background: linear-gradient(135deg, var(--color-accent-light), transparent);
   border-bottom: 1px solid var(--color-border);
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .selectedKeyword {
   display: flex;
   align-items: center;
-  gap: var(--space-xs);
+  gap: var(--space-sm);
   padding: var(--space-sm) var(--space-md);
-  background-color: var(--color-accent);
+  background: linear-gradient(135deg, var(--color-accent), hsl(20, 85%, 55%));
   color: white;
   border-radius: var(--radius-full);
   font-size: var(--text-sm);
-  font-weight: var(--weight-medium);
+  font-weight: var(--weight-semibold);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  animation: popIn 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .clearKeyword {
@@ -171,14 +282,15 @@
   align-items: center;
   justify-content: center;
   padding: var(--space-xs);
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.25);
   border-radius: var(--radius-full);
   color: white;
-  transition: var(--transition-fast);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .clearKeyword:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: rotate(90deg) scale(1.1);
 }
 
 .keywordCloud {
@@ -193,33 +305,51 @@
 
 .keywordCloudLabel {
   font-size: var(--text-xs);
-  font-weight: var(--weight-semibold);
+  font-weight: var(--weight-bold);
   color: var(--color-text-tertiary);
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 
 .keywordTag {
   padding: var(--space-xs) var(--space-sm);
   font-size: var(--text-xs);
-  font-weight: var(--weight-medium);
+  font-weight: var(--weight-semibold);
   background-color: var(--color-bg-tertiary);
   color: var(--color-text-secondary);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
-  transition: var(--transition-fast);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.keywordTag::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--color-accent), hsl(280, 85%, 60%));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
 }
 
 .keywordTag:hover {
-  background-color: var(--color-bg-hover);
-  color: var(--color-text-primary);
-  border-color: var(--color-text-tertiary);
+  color: white;
+  border-color: transparent;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.keywordTag:hover::before {
+  opacity: 1;
 }
 
 .keywordTagActive {
-  background-color: var(--color-accent);
+  background: linear-gradient(135deg, var(--color-accent), hsl(20, 85%, 55%));
   color: white;
-  border-color: var(--color-accent);
+  border-color: transparent;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .refreshButton {
@@ -227,22 +357,52 @@
   align-items: center;
   justify-content: center;
   gap: var(--space-xs);
-  padding: var(--space-sm) var(--space-md);
-  background-color: var(--color-accent);
+  padding: var(--space-sm) var(--space-lg);
+  background: linear-gradient(135deg, var(--color-accent), hsl(20, 85%, 55%));
   color: white;
   font-size: var(--text-sm);
-  font-weight: var(--weight-medium);
-  border-radius: var(--radius-md);
-  transition: var(--transition-fast);
+  font-weight: var(--weight-semibold);
+  border-radius: var(--radius-lg);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.refreshButton::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.3) 50%,
+    transparent 70%
+  );
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+}
+
+.refreshButton:hover::before {
+  transform: translateX(100%);
 }
 
 .refreshButton:hover {
-  background-color: var(--color-accent-hover);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25), 0 0 30px var(--color-accent);
+}
+
+.refreshButton:active {
+  transform: translateY(0) scale(0.98);
 }
 
 .refreshButton:disabled {
   opacity: 0.6;
   cursor: not-allowed;
+  transform: none;
 }
 
 .spinning {
@@ -276,5 +436,23 @@
 
   .keywordCloud {
     padding: var(--space-sm);
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .header,
+  .logo,
+  .logoImage,
+  .navLink,
+  .themeToggle,
+  .searchInput,
+  .sortSelect,
+  .keywordTag,
+  .refreshButton,
+  .selectedKeyword,
+  .clearKeyword {
+    animation: none !important;
+    transition: none !important;
   }
 }

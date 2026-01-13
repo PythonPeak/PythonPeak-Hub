@@ -3,13 +3,16 @@ import { AnimatePresence } from 'framer-motion';
 import { FeedPage } from '../../pages/Feed';
 import { WatchPage } from '../../pages/Watch';
 import { PageTransition } from '../PageTransition';
+import { NavigationProgress } from '../NavigationProgress';
 
 export function AnimatedRoutes() {
   const location = useLocation();
 
   return (
-    <AnimatePresence mode="wait" initial={false}>
-      <Routes location={location} key={location.pathname}>
+    <>
+      <NavigationProgress />
+      <AnimatePresence mode="wait" initial={false}>
+        <Routes location={location} key={location.pathname}>
         <Route
           path="/"
           element={
@@ -37,5 +40,6 @@ export function AnimatedRoutes() {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </AnimatePresence>
+    </>
   );
 }

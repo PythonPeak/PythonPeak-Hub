@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Sun, Moon, Search, X, Tag } from 'lucide-react';
 import { useApp } from '../../contexts/AppContext';
+import { useScrollShrink } from '../../hooks/useScrollShrink';
 import { SortType } from '../../types';
 import { config } from '../../config';
 import styles from './Header.module.css';
@@ -8,14 +9,17 @@ import styles from './Header.module.css';
 export function Header() {
   const { settings, updateSettings, searchQuery, selectedKeyword, sort, setSearch, setSelectedKeyword, setSort, getAllKeywords } = useApp();
   const allKeywords = getAllKeywords();
+  const isScrolled = useScrollShrink(50);
 
   const toggleTheme = () => {
     const newTheme = settings.theme === 'dark' ? 'light' : 'dark';
     updateSettings({ theme: newTheme });
   };
 
+  const headerClass = `${styles.header} ${isScrolled ? styles.headerScrolled : ''}`;
+
   return (
-    <header className={styles.header}>
+    <header className={headerClass}>
       <div className={styles.headerContent}>
         <Link to="/" className={styles.logo}>
           <img src={config.ui.logo.image} alt={config.ui.logo.text} className={styles.logoImage} />

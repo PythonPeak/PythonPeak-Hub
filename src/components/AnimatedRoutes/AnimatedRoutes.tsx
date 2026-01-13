@@ -4,6 +4,7 @@ import { FeedPage } from '../../pages/Feed';
 import { WatchPage } from '../../pages/Watch';
 import { PageTransition } from '../PageTransition';
 import { NavigationProgress } from '../NavigationProgress';
+import { ScrollToTop } from '../ScrollToTop';
 
 export function AnimatedRoutes() {
   const location = useLocation();
@@ -11,6 +12,7 @@ export function AnimatedRoutes() {
   return (
     <>
       <NavigationProgress />
+      <ScrollToTop />
       <AnimatePresence mode="wait" initial={false}>
         <Routes location={location} key={location.pathname}>
         <Route

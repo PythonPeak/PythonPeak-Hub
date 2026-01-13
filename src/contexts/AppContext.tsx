@@ -122,12 +122,22 @@ export function AppProvider({ children }: { children: ReactNode }) {
     const theme = state.settings.theme;
     const root = document.documentElement;
     
+    // Add transition class for smooth theme change
+    root.classList.add('theme-transitioning');
+    
     if (theme === 'system') {
       const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
       root.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
     } else {
       root.setAttribute('data-theme', theme);
     }
+    
+    // Remove transition class after animation completes
+    const timeout = setTimeout(() => {
+      root.classList.remove('theme-transitioning');
+    }, 400);
+    
+    return () => clearTimeout(timeout);
   }, [state.settings.theme]);
 
   const setItems = useCallback((items: FeedItem[]) => {

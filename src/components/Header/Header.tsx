@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
-import { Sun, Moon, Search, X, Tag } from 'lucide-react';
+import { Search, X, Tag } from 'lucide-react';
 import { useApp } from '../../contexts/AppContext';
 import { useScrollShrink } from '../../hooks/useScrollShrink';
+import { ThemeToggle } from '../ThemeToggle';
 import { SortType } from '../../types';
 import { config } from '../../config';
 import styles from './Header.module.css';
@@ -48,13 +49,7 @@ export function Header() {
           <option value="oldest">Oldest first</option>
         </select>
 
-        <button
-          className={styles.themeToggle}
-          onClick={toggleTheme}
-          aria-label={settings.theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'}
-        >
-          {settings.theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
-        </button>
+        <ThemeToggle theme={settings.theme} onToggle={toggleTheme} />
       </div>
 
       {selectedKeyword && (

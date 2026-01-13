@@ -1,0 +1,71 @@
+.toggle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  color: var(--color-text-secondary);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color 0.3s ease;
+}
+
+.toggle:hover {
+  color: hsl(var(--primary));
+}
+
+.iconWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  z-index: 1;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glow {
+  position: absolute;
+  inset: -50%;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  transform: scale(0);
+  pointer-events: none;
+}
+
+.glowLight {
+  background: radial-gradient(circle, hsl(45 100% 60% / 0.4) 0%, transparent 70%);
+}
+
+.glowDark {
+  background: radial-gradient(circle, hsl(220 80% 60% / 0.4) 0%, transparent 70%);
+}
+
+.toggle:hover .glow {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Rays animation for sun */
+.toggle:hover .icon :global(svg) {
+  filter: drop-shadow(0 0 8px currentColor);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toggle,
+  .glow,
+  .icon {
+    transition: none !important;
+  }
+}

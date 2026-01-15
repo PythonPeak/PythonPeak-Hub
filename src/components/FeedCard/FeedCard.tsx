@@ -20,7 +20,6 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
   const { ref, isVisible } = useScrollReveal<HTMLElement>({ threshold: 0.15 });
   const [showPreview, setShowPreview] = useState(false);
   const [isHovering, setIsHovering] = useState(false);
-  const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     if (item.type === 'unknown' && !hasClassified.current) {
@@ -31,26 +30,12 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
 
   const handleMouseEnter = useCallback(() => {
     setIsHovering(true);
-    hoverTimeoutRef.current = setTimeout(() => {
-      setShowPreview(true);
-    }, 1000);
+    setShowPreview(true);
   }, []);
 
   const handleMouseLeave = useCallback(() => {
     setIsHovering(false);
-    if (hoverTimeoutRef.current) {
-      clearTimeout(hoverTimeoutRef.current);
-      hoverTimeoutRef.current = null;
-    }
     setShowPreview(false);
-  }, []);
-
-  useEffect(() => {
-    return () => {
-      if (hoverTimeoutRef.current) {
-        clearTimeout(hoverTimeoutRef.current);
-      }
-    };
   }, []);
 
   const handleClick = () => {

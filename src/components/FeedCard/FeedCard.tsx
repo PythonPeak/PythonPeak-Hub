@@ -89,6 +89,9 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
       role="button"
       aria-label={`Watch ${item.title}`}
     >
+      {/* Level-up glow ring */}
+      <div className={styles.levelGlow} />
+      
       <div className={`${styles.thumbnailWrapper} ${item.type === 'short' ? styles.short : ''}`}>
         <img
           src={item.thumbnailUrl}
@@ -108,7 +111,39 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
             <div className={styles.previewOverlay} />
           </div>
         )}
+        
+        {/* Gamification elements */}
         <div className={styles.glowOverlay} />
+        <div className={styles.achievementFlash} />
+        <div className={styles.electricArc} />
+        <div className={styles.comboRing} />
+        
+        {/* XP Sparkles */}
+        <div className={styles.sparklesContainer}>
+          <div className={styles.sparkle} />
+          <div className={styles.sparkle} />
+          <div className={styles.sparkle} />
+          <div className={styles.sparkle} />
+          <div className={styles.sparkle} />
+          <div className={styles.sparkle} />
+        </div>
+        
+        {/* Particle burst effect */}
+        <div className={styles.particleBurst} />
+        <div className={styles.particleBurst} />
+        <div className={styles.particleBurst} />
+        <div className={styles.particleBurst} />
+        <div className={styles.particleBurst} />
+        <div className={styles.particleBurst} />
+        <div className={styles.particleBurst} />
+        <div className={styles.particleBurst} />
+        
+        {/* XP Badge */}
+        <div className={styles.xpBadge}>+50 XP</div>
+        
+        {/* Power-up indicator */}
+        <div className={styles.powerUp}>Watch</div>
+        
         <div className={styles.ripple} />
         <div className={styles.ripple} />
         {!showPreview && <div className={styles.playButton} />}

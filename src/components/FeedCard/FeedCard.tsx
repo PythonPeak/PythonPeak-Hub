@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FeedItem } from '../../types';
 import { useClassification } from '../../hooks/useClassification';
@@ -18,6 +18,9 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
   const { setSelectedKeyword } = useApp();
   const hasClassified = useRef(false);
   const { ref, isVisible } = useScrollReveal<HTMLElement>({ threshold: 0.15 });
+  const [showPreview, setShowPreview] = useState(false);
+  const [isHovering, setIsHovering] = useState(false);
+  const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     if (item.type === 'unknown' && !hasClassified.current) {
@@ -25,6 +28,30 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
       classifyItem(item);
     }
   }, [item, classifyItem]);
+
+  const handleMouseEnter = useCallback(() => {
+    setIsHovering(true);
+    hoverTimeoutRef.current = setTimeout(() => {
+      setShowPreview(true);
+    }, 1000);
+  }, []);
+
+  const handleMouseLeave = useCallback(() => {
+    setIsHovering(false);
+    if (hoverTimeoutRef.current) {
+      clearTimeout(hoverTimeoutRef.current);
+      hoverTimeoutRef.current = null;
+    }
+    setShowPreview(false);
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (hoverTimeoutRef.current) {
+        clearTimeout(hoverTimeoutRef.current);
+      }
+    };
+  }, []);
 
   const handleClick = () => {
     navigate(`/watch/${item.videoId}`);
@@ -71,6 +98,8 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
       style={{ animationDelay: `${animationDelay}s` }}
       onClick={handleClick}
       onKeyDown={handleKeyDown}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
       tabIndex={0}
       role="button"
       aria-label={`Watch ${item.title}`}
@@ -79,13 +108,25 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
         <img
           src={item.thumbnailUrl}
           alt=""
-          className={styles.thumbnail}
+          className={`${styles.thumbnail} ${showPreview ? styles.thumbnailHidden : ''}`}
           loading="lazy"
         />
+        {showPreview && (
+          <div className={styles.previewContainer}>
+            <iframe
+              src={`https://www.youtube.com/embed/${item.videoId}?autoplay=1&mute=1&controls=0&loop=1&playlist=${item.videoId}&start=0&modestbranding=1&rel=0&showinfo=0`}
+              className={styles.previewIframe}
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+              title={`Preview: ${item.title}`}
+            />
+            <div className={styles.previewOverlay} />
+          </div>
+        )}
         <div className={styles.glowOverlay} />
         <div className={styles.ripple} />
         <div className={styles.ripple} />
-        <div className={styles.playButton} />
+        {!showPreview && <div className={styles.playButton} />}
         {item.keywords && item.keywords.length > 0 && (
           <div className={styles.videoBadges}>
             {item.keywords.slice(0, config.ui.grid.maxKeywordsPerCard).map((keyword, idx) => (

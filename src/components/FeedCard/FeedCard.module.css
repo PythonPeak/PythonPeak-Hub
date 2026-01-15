@@ -108,12 +108,62 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
-              filter 0.5s ease;
+              filter 0.5s ease,
+              opacity 0.4s ease;
 }
 
-.card:hover .thumbnail {
+.thumbnailHidden {
+  opacity: 0;
+}
+
+.card:hover .thumbnail:not(.thumbnailHidden) {
   transform: scale(1.15);
   filter: brightness(1.15) saturate(1.2) contrast(1.05);
+}
+
+/* Video preview on hover */
+.previewContainer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: inherit;
+  animation: previewFadeIn 0.5s ease forwards;
+}
+
+@keyframes previewFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.previewIframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200%;
+  height: 200%;
+  transform: translate(-50%, -50%);
+  border: none;
+  pointer-events: none;
+}
+
+.previewOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    transparent 40%,
+    transparent 60%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  pointer-events: none;
 }
 
 .videoBadges {

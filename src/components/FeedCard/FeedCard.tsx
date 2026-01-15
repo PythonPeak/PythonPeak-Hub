@@ -82,6 +82,10 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
           className={styles.thumbnail}
           loading="lazy"
         />
+        <div className={styles.glowOverlay} />
+        <div className={styles.ripple} />
+        <div className={styles.ripple} />
+        <div className={styles.playButton} />
         {item.keywords && item.keywords.length > 0 && (
           <div className={styles.videoBadges}>
             {item.keywords.slice(0, config.ui.grid.maxKeywordsPerCard).map((keyword, idx) => (

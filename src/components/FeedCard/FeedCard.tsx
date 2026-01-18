@@ -91,6 +91,7 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
     >
       {/* Level-up glow ring */}
       <div className={styles.levelGlow} />
+      <div className={styles.neonBorder} />
       
       <div className={`${styles.thumbnailWrapper} ${item.type === 'short' ? styles.short : ''}`}>
         <img
@@ -118,6 +119,24 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
         <div className={styles.electricArc} />
         <div className={styles.comboRing} />
         
+        {/* Streak Fire Effect */}
+        <div className={styles.streakFire} />
+        
+        {/* Star Trail */}
+        <div className={styles.starTrail}>
+          <div className={styles.star} />
+          <div className={styles.star} />
+          <div className={styles.star} />
+        </div>
+        
+        {/* Confetti Burst */}
+        <div className={styles.confetti} />
+        <div className={styles.confetti} />
+        <div className={styles.confetti} />
+        <div className={styles.confetti} />
+        <div className={styles.confetti} />
+        <div className={styles.confetti} />
+        
         {/* XP Sparkles */}
         <div className={styles.sparklesContainer}>
           <div className={styles.sparkle} />
@@ -137,6 +156,26 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
         <div className={styles.particleBurst} />
         <div className={styles.particleBurst} />
         <div className={styles.particleBurst} />
+        
+        {/* Energy Meter */}
+        <div className={styles.energyMeter}>
+          <div className={styles.energyFill} />
+        </div>
+        
+        {/* Sound Wave Visualizer */}
+        <div className={styles.soundWaves}>
+          <div className={styles.soundBar} />
+          <div className={styles.soundBar} />
+          <div className={styles.soundBar} />
+          <div className={styles.soundBar} />
+          <div className={styles.soundBar} />
+        </div>
+        
+        {/* Trophy Icon */}
+        <div className={styles.trophyIcon}>🏆</div>
+        
+        {/* Score Multiplier */}
+        <div className={styles.multiplierBadge}>2x COMBO</div>
         
         {/* XP Badge */}
         <div className={styles.xpBadge}>+50 XP</div>

@@ -11,6 +11,1634 @@
  </author>
  <published>2018-01-26T15:20:07+00:00</published>
  <entry>
+  <id>yt:video:SAcVyYDFUF0</id>
+  <yt:videoId>SAcVyYDFUF0</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why does this Python worker drop messages?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=SAcVyYDFUF0"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-17T23:26:19+00:00</published>
+  <updated>2026-01-12T10:27:11+00:00</updated>
+  <media:group>
+   <media:title>Why does this Python worker drop messages?</media:title>
+   <media:content url="https://www.youtube.com/v/SAcVyYDFUF0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/SAcVyYDFUF0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this Python worker drop messages in production. The Python code acknowledges the queue before the database commit, so failures lose data permanently. In Python pipelines this creates silent gaps.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python queue bug, python ack, python data loss, python worker</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:s7GS4fUOg74</id>
+  <yt:videoId>s7GS4fUOg74</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Avoid Accidental Global Random Seeds</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=s7GS4fUOg74"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-17T20:33:08+00:00</published>
+  <updated>2026-01-12T10:33:49+00:00</updated>
+  <media:group>
+   <media:title>How to Avoid Accidental Global Random Seeds</media:title>
+   <media:content url="https://www.youtube.com/v/s7GS4fUOg74?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/s7GS4fUOg74/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Seeding random once can ruin every test run.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, random, seed, testing, howto</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:BBqW68ORiK8</id>
+  <yt:videoId>BBqW68ORiK8</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why does this Python rate limiter block everyone?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=BBqW68ORiK8"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-17T14:26:19+00:00</published>
+  <updated>2026-01-12T10:27:08+00:00</updated>
+  <media:group>
+   <media:title>Why does this Python rate limiter block everyone?</media:title>
+   <media:content url="https://www.youtube.com/v/BBqW68ORiK8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/BBqW68ORiK8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this Python rate limiter block everyone after one user spikes. The Python code uses a global counter instead of per user state. In Python APIs this turns one bad actor into a full outage.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python rate limit, python api throttling, python traffic</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8h3UxhKWp9k</id>
+  <yt:videoId>8h3UxhKWp9k</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Avoid None From list.sort</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8h3UxhKWp9k"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-17T09:33:08+00:00</published>
+  <updated>2026-01-12T10:33:46+00:00</updated>
+  <media:group>
+   <media:title>How to Avoid None From list.sort</media:title>
+   <media:content url="https://www.youtube.com/v/8h3UxhKWp9k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/8h3UxhKWp9k/hqdefault.jpg" width="480" height="360"/>
+   <media:description>list.sort returns None and wrecks pipelines.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, sort, none bug, howto, lists</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:xoGIKrtHHt8</id>
+  <yt:videoId>xoGIKrtHHt8</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python account transfer?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=xoGIKrtHHt8"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-17T05:26:19+00:00</published>
+  <updated>2026-01-12T10:27:05+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python account transfer?</media:title>
+   <media:content url="https://www.youtube.com/v/xoGIKrtHHt8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/xoGIKrtHHt8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python account transfer in production. The Python code updates two balances without a transaction, so crashes leave money missing or duplicated. In Python finance services this creates inconsistent ledgers.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python transaction bug, python money transfer, python database, python consistency, python finance</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:UA72HQuTLP0</id>
+  <yt:videoId>UA72HQuTLP0</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Stop dict.fromkeys From Sharing Lists</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=UA72HQuTLP0"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-16T22:33:08+00:00</published>
+  <updated>2026-01-12T10:33:43+00:00</updated>
+  <media:group>
+   <media:title>How to Stop dict.fromkeys From Sharing Lists</media:title>
+   <media:content url="https://www.youtube.com/v/UA72HQuTLP0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/UA72HQuTLP0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>fromkeys can point every key to the same list.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, dict fromkeys, shared state, bug, howto, lists</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2h1oC9Wi9Uc</id>
+  <yt:videoId>2h1oC9Wi9Uc</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python gzip handler?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2h1oC9Wi9Uc"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-16T20:26:19+00:00</published>
+  <updated>2026-01-12T10:27:01+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python gzip handler?</media:title>
+   <media:content url="https://www.youtube.com/v/2h1oC9Wi9Uc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/2h1oC9Wi9Uc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python gzip handler in a webhook. The Python code inflates compressed data without size limits, so a tiny payload can explode memory. In Python services this crashes workers.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python gzip bomb, python decompression, python security, python memory, python webhook</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9wWTObB5Mk8</id>
+  <yt:videoId>9wWTObB5Mk8</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Avoid Bankers Rounding Surprises</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9wWTObB5Mk8"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-16T11:33:08+00:00</published>
+  <updated>2026-01-12T10:33:39+00:00</updated>
+  <media:group>
+   <media:title>How to Avoid Bankers Rounding Surprises</media:title>
+   <media:content url="https://www.youtube.com/v/9wWTObB5Mk8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9wWTObB5Mk8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>round uses banker's rounding and can flip prices.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, rounding, decimal, finance, howto, gotcha</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:WVeuCTMF62s</id>
+  <yt:videoId>WVeuCTMF62s</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why does this Python pagination skip items?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WVeuCTMF62s"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-16T11:26:19+00:00</published>
+  <updated>2026-01-12T10:26:58+00:00</updated>
+  <media:group>
+   <media:title>Why does this Python pagination skip items?</media:title>
+   <media:content url="https://www.youtube.com/v/WVeuCTMF62s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/WVeuCTMF62s/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this Python pagination skip items in a busy table. The Python code uses offset pagination while new rows are inserted, so items shift and get skipped. In Python APIs this loses results for users.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python pagination bug, python offset pagination, python database, python data consistency</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:MqjVyD53Uic</id>
+  <yt:videoId>MqjVyD53Uic</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python streaming response?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=MqjVyD53Uic"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-16T02:26:19+00:00</published>
+  <updated>2026-01-12T10:26:54+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python streaming response?</media:title>
+   <media:content url="https://www.youtube.com/v/MqjVyD53Uic?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/MqjVyD53Uic/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python streaming response in an API. The Python code closes the database cursor before the generator is consumed, so the stream fails mid response. In Python services this causes partial downloads.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python streaming, python generator bug, python database cursor, python data loss</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9sVuIq7h50s</id>
+  <yt:videoId>9sVuIq7h50s</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Defuse Catastrophic Regex Backtracking</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9sVuIq7h50s"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-16T00:33:08+00:00</published>
+  <updated>2026-01-12T10:33:36+00:00</updated>
+  <media:group>
+   <media:title>How to Defuse Catastrophic Regex Backtracking</media:title>
+   <media:content url="https://www.youtube.com/v/9sVuIq7h50s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9sVuIq7h50s/hqdefault.jpg" width="480" height="360"/>
+   <media:description>One regex can lock up a CPU core.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, regex, redos, performance, howto, security</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:sDLObQv7Luc</id>
+  <yt:videoId>sDLObQv7Luc</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python asyncio gather?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=sDLObQv7Luc"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-15T23:49:25+00:00</published>
+  <updated>2026-01-12T07:50:21+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python asyncio gather?</media:title>
+   <media:content url="https://www.youtube.com/v/sDLObQv7Luc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/sDLObQv7Luc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python asyncio gather in a fan-out call. The Python code lets one failure cancel all other tasks, so partial writes never finish. In Python services this causes missing records and inconsistent state.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python asyncio gather, python fanout, python partial failure, python concurrency bug, python data loss</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:4Bkzc5ZVrxE</id>
+  <yt:videoId>4Bkzc5ZVrxE</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why is this Python command injection possible?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=4Bkzc5ZVrxE"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-15T17:49:25+00:00</published>
+  <updated>2026-01-12T07:50:17+00:00</updated>
+  <media:group>
+   <media:title>Why is this Python command injection possible?</media:title>
+   <media:content url="https://www.youtube.com/v/4Bkzc5ZVrxE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/4Bkzc5ZVrxE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why is this Python command injection possible in a media service. The Python code builds a shell command with user input and runs it with shell=True. In Python backends this allows attackers to execute commands.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python command injection, python subprocess, python security, python shell true, python vulnerability</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:kNVY7o7W41I</id>
+  <yt:videoId>kNVY7o7W41I</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python aggregation?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=kNVY7o7W41I"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-15T17:26:19+00:00</published>
+  <updated>2026-01-12T10:26:51+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python aggregation?</media:title>
+   <media:content url="https://www.youtube.com/v/kNVY7o7W41I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/kNVY7o7W41I/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python aggregation in a reporting job. The Python code stores one event per key, overwriting previous events. In Python analytics this undercounts revenue and traffic.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python aggregation bug, python analytics, python data loss, python reporting, python dict bug</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:RXgbqorHnUM</id>
+  <yt:videoId>RXgbqorHnUM</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Find the First Match Without Scanning Everything</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=RXgbqorHnUM"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-15T14:09:37+00:00</published>
+  <updated>2026-01-12T11:10:13+00:00</updated>
+  <media:group>
+   <media:title>How to Find the First Match Without Scanning Everything</media:title>
+   <media:content url="https://www.youtube.com/v/RXgbqorHnUM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/RXgbqorHnUM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>next stops early and saves time on big lists.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, next, generator, performance, howto</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:hlfxrRrchVo</id>
+  <yt:videoId>hlfxrRrchVo</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Detect Duplicate JSON Keys</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=hlfxrRrchVo"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-15T13:33:08+00:00</published>
+  <updated>2026-01-12T10:33:32+00:00</updated>
+  <media:group>
+   <media:title>How to Detect Duplicate JSON Keys</media:title>
+   <media:content url="https://www.youtube.com/v/hlfxrRrchVo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/hlfxrRrchVo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>json.loads keeps the last key and hides duplicates.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, json, duplicate keys, howto, data integrity</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:S6twdFEkTeQ</id>
+  <yt:videoId>S6twdFEkTeQ</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python feature cache?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=S6twdFEkTeQ"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-15T11:49:25+00:00</published>
+  <updated>2026-01-16T10:05:27+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python feature cache?</media:title>
+   <media:content url="https://www.youtube.com/v/S6twdFEkTeQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/S6twdFEkTeQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>That Python feature cache looks fine until one user changes another. This Python code reuses a shared default list, then caches it per user, so one mutation propagates everywhere.
+In Python services that manage flags or permissions, this bug contaminates data across accounts. Fix the Python cache by copying defaults and returning immutable data.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python shared state, python cache bug, python data contamination, python feature flags, python mutable bug, python production issue, python side effects, python backend, python permissions bug, python code review, python debugging, python config bug, python services, backend bug, python reliability</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:NOKUJRqg0us</id>
+  <yt:videoId>NOKUJRqg0us</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why does this Python regex lock the server?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=NOKUJRqg0us"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-15T08:26:19+00:00</published>
+  <updated>2026-01-12T10:26:47+00:00</updated>
+  <media:group>
+   <media:title>Why does this Python regex lock the server?</media:title>
+   <media:content url="https://www.youtube.com/v/NOKUJRqg0us?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/NOKUJRqg0us/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this Python regex lock the server on a single input. The Python pattern has catastrophic backtracking and can hang a worker. In Python APIs this becomes a trivial denial of service.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python regex dos, python backtracking, python security bug, python performance, python input validation</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:WDNaK9_BWmQ</id>
+  <yt:videoId>WDNaK9_BWmQ</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Use Generators to Avoid Memory Spikes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WDNaK9_BWmQ"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-15T07:09:37+00:00</published>
+  <updated>2026-01-18T00:00:17+00:00</updated>
+  <media:group>
+   <media:title>How to Use Generators to Avoid Memory Spikes</media:title>
+   <media:content url="https://www.youtube.com/v/WDNaK9_BWmQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/WDNaK9_BWmQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A list can explode memory while a generator stays light.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, generator, memory, performance, howto</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:pP5jy2X7lVA</id>
+  <yt:videoId>pP5jy2X7lVA</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python YAML parser?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=pP5jy2X7lVA"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-15T05:49:25+00:00</published>
+  <updated>2026-01-12T07:50:09+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python YAML parser?</media:title>
+   <media:content url="https://www.youtube.com/v/pP5jy2X7lVA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/pP5jy2X7lVA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python YAML parser in a config endpoint. The Python code uses yaml.load on user input, which can construct arbitrary objects. In Python services this becomes an injection and takeover risk.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python yaml load, python security bug, python deserialization, python rce, python config</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:A5npV1rFpqQ</id>
+  <yt:videoId>A5npV1rFpqQ</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Make Hashes Stable for Cache Keys</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=A5npV1rFpqQ"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-15T02:33:08+00:00</published>
+  <updated>2026-01-12T10:33:29+00:00</updated>
+  <media:group>
+   <media:title>How to Make Hashes Stable for Cache Keys</media:title>
+   <media:content url="https://www.youtube.com/v/A5npV1rFpqQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/A5npV1rFpqQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>hash changes every run and breaks cache keys.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, hash, cache key, howto, stability, security</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:CyAGrXayqGE</id>
+  <yt:videoId>CyAGrXayqGE</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Avoid Mutating Dicts While Iterating</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=CyAGrXayqGE"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-15T00:09:37+00:00</published>
+  <updated>2026-01-12T11:10:06+00:00</updated>
+  <media:group>
+   <media:title>How to Avoid Mutating Dicts While Iterating</media:title>
+   <media:content url="https://www.youtube.com/v/CyAGrXayqGE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/CyAGrXayqGE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Changing a dict mid-loop throws a runtime error.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, dict, mutation, runtime error, howto</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9f3JtNpZoIU</id>
+  <yt:videoId>9f3JtNpZoIU</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why is this Python expiry check off by hours?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9f3JtNpZoIU"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-14T23:49:25+00:00</published>
+  <updated>2026-01-12T07:50:06+00:00</updated>
+  <media:group>
+   <media:title>Why is this Python expiry check off by hours?</media:title>
+   <media:content url="https://www.youtube.com/v/9f3JtNpZoIU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9f3JtNpZoIU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>That Python expiry check is quietly wrong outside UTC. This Python code builds a local datetime from a Unix timestamp but compares it to UTC now, shifting expiration by hours.
+In production Python APIs, this breaks auth tokens, scheduled jobs, and retries when servers run in different timezones. Fix the Python logic with timezone-aware datetimes.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python timezone bug, python datetime, python utc, python expiry bug, python token expiry, python production bug, python time drift, python scheduling, python api bug, python backend, python timestamps, python auth bug, python timezones, backend reliability, python services</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:vSr05gp3FtA</id>
+  <yt:videoId>vSr05gp3FtA</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why does this Python job stop on deploy?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vSr05gp3FtA"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-14T23:26:19+00:00</published>
+  <updated>2026-01-12T10:26:43+00:00</updated>
+  <media:group>
+   <media:title>Why does this Python job stop on deploy?</media:title>
+   <media:content url="https://www.youtube.com/v/vSr05gp3FtA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/vSr05gp3FtA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this Python background job stop on deploy. The Python code starts a task but never awaits a graceful shutdown, so in-flight work is canceled. In Python services this drops writes during restarts.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python background job, python shutdown, python graceful stop, python async bug, python data loss</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:lwaWgfUmFc0</id>
+  <yt:videoId>lwaWgfUmFc0</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python cache versioning?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=lwaWgfUmFc0"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-14T17:49:25+00:00</published>
+  <updated>2026-01-15T20:05:04+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python cache versioning?</media:title>
+   <media:content url="https://www.youtube.com/v/lwaWgfUmFc0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/lwaWgfUmFc0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python cache versioning in a schema rollout. The Python code reuses the same cache key after a data shape change, so old and new payloads mix. In Python services this causes crashes after deploy.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python cache version, python deployment bug, python schema change, python cache invalidation</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:U-cxc3ZiSUY</id>
+  <yt:videoId>U-cxc3ZiSUY</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Avoid Encoding Surprises With open</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=U-cxc3ZiSUY"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-14T17:09:37+00:00</published>
+  <updated>2026-01-12T11:10:03+00:00</updated>
+  <media:group>
+   <media:title>How to Avoid Encoding Surprises With open</media:title>
+   <media:content url="https://www.youtube.com/v/U-cxc3ZiSUY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/U-cxc3ZiSUY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Default encoding can break in production locales.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, encoding, utf-8, howto, files</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Df2moJvM2nQ</id>
+  <yt:videoId>Df2moJvM2nQ</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Prevent Class Variables From Sharing State</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Df2moJvM2nQ"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-14T15:33:08+00:00</published>
+  <updated>2026-01-12T10:33:26+00:00</updated>
+  <media:group>
+   <media:title>How to Prevent Class Variables From Sharing State</media:title>
+   <media:content url="https://www.youtube.com/v/Df2moJvM2nQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Df2moJvM2nQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>One list on a class can leak across every user.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, class variable, shared state, bug, howto, objects</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:yvWPi657_78</id>
+  <yt:videoId>yvWPi657_78</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python retry backoff?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=yvWPi657_78"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-14T14:26:19+00:00</published>
+  <updated>2026-01-12T10:26:40+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python retry backoff?</media:title>
+   <media:content url="https://www.youtube.com/v/yvWPi657_78?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/yvWPi657_78/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python retry backoff during outages. The Python code retries on a fixed schedule without jitter, so all workers stampede at once. In Python services this keeps the outage alive.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python retry backoff, python thundering herd, python outage, python resilience</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-ERw7BFPy1o</id>
+  <yt:videoId>-ERw7BFPy1o</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python request context?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-ERw7BFPy1o"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-14T11:49:25+00:00</published>
+  <updated>2026-01-15T12:00:13+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python request context?</media:title>
+   <media:content url="https://www.youtube.com/v/-ERw7BFPy1o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-ERw7BFPy1o/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python request context in a logging pipeline. The Python function uses a mutable default list, so requests share the same trace buffer. In Python APIs this mixes user data and breaks audits.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python mutable default, python logging, python request context, python data leak</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:RUVgMx6mKqo</id>
+  <yt:videoId>RUVgMx6mKqo</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Prevent Subprocess Hangs</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=RUVgMx6mKqo"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-14T10:09:37+00:00</published>
+  <updated>2026-01-12T11:09:59+00:00</updated>
+  <media:group>
+   <media:title>How to Prevent Subprocess Hangs</media:title>
+   <media:content url="https://www.youtube.com/v/RUVgMx6mKqo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/RUVgMx6mKqo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A missing timeout can freeze a worker forever.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, subprocess, timeout, howto, production</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:1CFNOSZz-qY</id>
+  <yt:videoId>1CFNOSZz-qY</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python user patch?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=1CFNOSZz-qY"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-14T05:49:25+00:00</published>
+  <updated>2026-01-12T07:49:55+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python user patch?</media:title>
+   <media:content url="https://www.youtube.com/v/1CFNOSZz-qY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/1CFNOSZz-qY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python user patch endpoint. The Python code applies a user patch directly to the model, allowing reserved fields to be overwritten. In Python APIs this creates privilege escalation and data loss.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python security bug, python patch endpoint, python data integrity, python api design, python authorization</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:FvIRBlc5Y18</id>
+  <yt:videoId>FvIRBlc5Y18</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why does this Python JSON parser crash?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=FvIRBlc5Y18"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-14T05:26:19+00:00</published>
+  <updated>2026-01-12T10:26:37+00:00</updated>
+  <media:group>
+   <media:title>Why does this Python JSON parser crash?</media:title>
+   <media:content url="https://www.youtube.com/v/FvIRBlc5Y18?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/FvIRBlc5Y18/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this Python JSON parser crash on nested input. The Python code parses untrusted JSON without depth limits, so deeply nested data hits recursion limits. In Python APIs this becomes a denial of service.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python json bug, python recursion, python dos, python input validation, python security</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:dzMOOFhL3X0</id>
+  <yt:videoId>dzMOOFhL3X0</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Stop Float Equality Bugs</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=dzMOOFhL3X0"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-14T04:33:08+00:00</published>
+  <updated>2026-01-15T12:01:27+00:00</updated>
+  <media:group>
+   <media:title>How to Stop Float Equality Bugs</media:title>
+   <media:content url="https://www.youtube.com/v/dzMOOFhL3X0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/dzMOOFhL3X0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>0.1 + 0.2 is not 0.3 in Python.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, float, precision, bug, howto, math</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:bHgpJLf1HcQ</id>
+  <yt:videoId>bHgpJLf1HcQ</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Prevent zip From Silently Dropping Data</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bHgpJLf1HcQ"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-14T04:03:34+00:00</published>
+  <updated>2026-01-09T15:59:37+00:00</updated>
+  <media:group>
+   <media:title>How to Prevent zip From Silently Dropping Data</media:title>
+   <media:content url="https://www.youtube.com/v/bHgpJLf1HcQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/bHgpJLf1HcQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>zip stops at the shortest list and hides the loss.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, zip, data loss, howto, iterators</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:53DJvf75Jl0</id>
+  <yt:videoId>53DJvf75Jl0</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Prevent list(range) From Exploding Memory</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=53DJvf75Jl0"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-14T03:09:37+00:00</published>
+  <updated>2026-01-12T11:09:56+00:00</updated>
+  <media:group>
+   <media:title>How to Prevent list(range) From Exploding Memory</media:title>
+   <media:content url="https://www.youtube.com/v/53DJvf75Jl0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/53DJvf75Jl0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>range is tiny but list(range) can eat RAM.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, range, memory, performance, howto</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:aKYl3QH29eo</id>
+  <yt:videoId>aKYl3QH29eo</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python cache key for pricing?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=aKYl3QH29eo"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T23:49:25+00:00</published>
+  <updated>2026-01-12T07:49:51+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python cache key for pricing?</media:title>
+   <media:content url="https://www.youtube.com/v/aKYl3QH29eo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/aKYl3QH29eo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>That Python cache looks fast but it can leak tenant data. This Python pricing function caches by SKU only, so the next tenant or currency gets the wrong price from the cache.
+In Python services that serve multiple customers, this bug causes incorrect invoices, angry users, and security incidents. Fix the Python cache key with tenant and currency context.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python cache bug, python data leak, multitenant bug, python caching, python security bug, python pricing bug, python cache key, python backend, python api bug, python data isolation, python memory cache, python production bug, python system design, backend safety, python services</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Y4DNGh4ZDWw</id>
+  <yt:videoId>Y4DNGh4ZDWw</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Protect Secrets From Predictable Tokens</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Y4DNGh4ZDWw"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T22:03:34+00:00</published>
+  <updated>2026-01-09T15:59:37+00:00</updated>
+  <media:group>
+   <media:title>How to Protect Secrets From Predictable Tokens</media:title>
+   <media:content url="https://www.youtube.com/v/Y4DNGh4ZDWw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Y4DNGh4ZDWw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>random looks safe until someone guesses every token.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, security, secrets, random, tokens, howto</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:EAnLdUclDwo</id>
+  <yt:videoId>EAnLdUclDwo</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python cache refresh?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=EAnLdUclDwo"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T21:40:03+00:00</published>
+  <updated>2026-01-11T11:40:46+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python cache refresh?</media:title>
+   <media:content url="https://www.youtube.com/v/EAnLdUclDwo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/EAnLdUclDwo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python cache refresh under load. The Python code lets every request recompute the value when it expires, causing a stampede. In Python services this melts the database.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python cache stampede, python cache refresh, python database load, python performance bug</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:N6sw4QnOV00</id>
+  <yt:videoId>N6sw4QnOV00</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python database loop?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=N6sw4QnOV00"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T20:26:19+00:00</published>
+  <updated>2026-01-12T10:26:33+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python database loop?</media:title>
+   <media:content url="https://www.youtube.com/v/N6sw4QnOV00?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/N6sw4QnOV00/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python database loop in an API endpoint. The Python code queries once per item, creating an N plus one pattern. In Python services this kills latency and database load.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python n+1, python database bug, python performance, python orm</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:qz2RUDtaeUU</id>
+  <yt:videoId>qz2RUDtaeUU</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Stop Timing Attacks in Password Checks</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=qz2RUDtaeUU"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T20:09:37+00:00</published>
+  <updated>2026-01-12T11:09:53+00:00</updated>
+  <media:group>
+   <media:title>How to Stop Timing Attacks in Password Checks</media:title>
+   <media:content url="https://www.youtube.com/v/qz2RUDtaeUU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/qz2RUDtaeUU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>String == leaks timing that can expose passwords.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, security, timing attack, hmac, howto</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:3aMvYSxZa2E</id>
+  <yt:videoId>3aMvYSxZa2E</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python session in threads?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=3aMvYSxZa2E"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T17:49:25+00:00</published>
+  <updated>2026-01-12T07:49:48+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python session in threads?</media:title>
+   <media:content url="https://www.youtube.com/v/3aMvYSxZa2E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/3aMvYSxZa2E/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python session in a thread pool. The Python code shares one requests Session across threads, which is not guaranteed thread safe. In Python crawlers this causes corrupted responses and retries.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python threading, python requests session, python thread safety, python crawler</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:rfnkKOG7cIo</id>
+  <yt:videoId>rfnkKOG7cIo</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Stop bare except From Hiding Failures</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=rfnkKOG7cIo"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T17:33:08+00:00</published>
+  <updated>2026-01-12T10:33:18+00:00</updated>
+  <media:group>
+   <media:title>How to Stop bare except From Hiding Failures</media:title>
+   <media:content url="https://www.youtube.com/v/rfnkKOG7cIo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/rfnkKOG7cIo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A bare except can make broken data look clean.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, exceptions, bare except, bug, howto, data</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5psRsdLZFBU</id>
+  <yt:videoId>5psRsdLZFBU</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Prevent is From Randomly Failing</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5psRsdLZFBU"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T16:03:34+00:00</published>
+  <updated>2026-01-09T15:59:37+00:00</updated>
+  <media:group>
+   <media:title>How to Prevent is From Randomly Failing</media:title>
+   <media:content url="https://www.youtube.com/v/5psRsdLZFBU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5psRsdLZFBU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Identity checks pass sometimes and betray you later.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, is vs equals, identity, gotcha, howto, bug</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:wrkMRPbp91g</id>
+  <yt:videoId>wrkMRPbp91g</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why is this Python price rounding wrong?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=wrkMRPbp91g"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T15:40:03+00:00</published>
+  <updated>2026-01-11T11:40:42+00:00</updated>
+  <media:group>
+   <media:title>Why is this Python price rounding wrong?</media:title>
+   <media:content url="https://www.youtube.com/v/wrkMRPbp91g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/wrkMRPbp91g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why is this Python price rounding wrong in billing. The Python code builds Decimal from a float, so binary precision leaks into money math. In Python finance this creates off by cents totals.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python decimal, python money bug, python rounding, python billing, python finance</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:O4dCRalzPEA</id>
+  <yt:videoId>O4dCRalzPEA</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Deduplicate While Preserving Order</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=O4dCRalzPEA"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T13:09:37+00:00</published>
+  <updated>2026-01-13T18:00:04+00:00</updated>
+  <media:group>
+   <media:title>How to Deduplicate While Preserving Order</media:title>
+   <media:content url="https://www.youtube.com/v/O4dCRalzPEA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/O4dCRalzPEA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>set removes duplicates but also scrambles order.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, dedupe, order, dict fromkeys, howto</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:yYJtUGL3pi0</id>
+  <yt:videoId>yYJtUGL3pi0</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why does this Python cache keep returning 404?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=yYJtUGL3pi0"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T11:49:25+00:00</published>
+  <updated>2026-01-12T07:49:44+00:00</updated>
+  <media:group>
+   <media:title>Why does this Python cache keep returning 404?</media:title>
+   <media:content url="https://www.youtube.com/v/yYJtUGL3pi0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/yYJtUGL3pi0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this Python cache keep returning 404 after data appears. The Python code caches missing results forever, so new records never show up. In Python APIs this makes users think data is lost.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python cache 404, python negative cache, python data freshness</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Z5PFqHBf9sI</id>
+  <yt:videoId>Z5PFqHBf9sI</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why does this Python dedupe reorder results?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Z5PFqHBf9sI"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T11:26:19+00:00</published>
+  <updated>2026-01-12T10:26:29+00:00</updated>
+  <media:group>
+   <media:title>Why does this Python dedupe reorder results?</media:title>
+   <media:content url="https://www.youtube.com/v/Z5PFqHBf9sI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Z5PFqHBf9sI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this Python dedupe reorder results in production. The Python code turns a list into a set, losing order and breaking pagination. In Python APIs this causes missing and duplicated items.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python set order, python dedupe bug, python pagination, python data bug</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:EmYYqs_R7bw</id>
+  <yt:videoId>EmYYqs_R7bw</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Block Path Traversal in Uploads</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=EmYYqs_R7bw"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T10:03:34+00:00</published>
+  <updated>2026-01-09T15:59:37+00:00</updated>
+  <media:group>
+   <media:title>How to Block Path Traversal in Uploads</media:title>
+   <media:content url="https://www.youtube.com/v/EmYYqs_R7bw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/EmYYqs_R7bw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Two dots can escape any upload folder.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, path traversal, security, uploads, howto, filesystem</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:m8EkmbfHcEw</id>
+  <yt:videoId>m8EkmbfHcEw</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why does this Python cache mutate itself?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=m8EkmbfHcEw"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T09:40:03+00:00</published>
+  <updated>2026-01-14T00:01:49+00:00</updated>
+  <media:group>
+   <media:title>Why does this Python cache mutate itself?</media:title>
+   <media:content url="https://www.youtube.com/v/m8EkmbfHcEw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/m8EkmbfHcEw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this Python cache mutate itself between requests. The Python code caches a list and returns it directly, so callers mutate shared cached state. In Python services this causes ghost data in responses.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python cache mutation, python shared state, python data corruption, python list bug</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Kph8uLiLMYk</id>
+  <yt:videoId>Kph8uLiLMYk</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Close Files Opened by Generators</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Kph8uLiLMYk"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T06:33:08+00:00</published>
+  <updated>2026-01-12T10:33:15+00:00</updated>
+  <media:group>
+   <media:title>How to Close Files Opened by Generators</media:title>
+   <media:content url="https://www.youtube.com/v/Kph8uLiLMYk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Kph8uLiLMYk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A half-used generator can leak file handles.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, generator, file handles, leak, howto, resources</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:oVXHg9Kmb2I</id>
+  <yt:videoId>oVXHg9Kmb2I</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Speed Up Membership Checks 100x</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=oVXHg9Kmb2I"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T06:09:37+00:00</published>
+  <updated>2026-01-14T18:02:52+00:00</updated>
+  <media:group>
+   <media:title>How to Speed Up Membership Checks 100x</media:title>
+   <media:content url="https://www.youtube.com/v/oVXHg9Kmb2I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/oVXHg9Kmb2I/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A list lookup can be painfully slow at scale.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, set, performance, membership, howto</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:I8w9E97N3HU</id>
+  <yt:videoId>I8w9E97N3HU</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why does this Python timeout loop run forever?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=I8w9E97N3HU"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T05:49:25+00:00</published>
+  <updated>2026-01-12T07:49:40+00:00</updated>
+  <media:group>
+   <media:title>Why does this Python timeout loop run forever?</media:title>
+   <media:content url="https://www.youtube.com/v/I8w9E97N3HU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/I8w9E97N3HU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this Python timeout loop run forever after a clock change. The Python code uses time.time for elapsed time, so NTP adjustments can make the loop never finish. In Python services this turns short waits into long stalls.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python timeout bug, python time.time, python ntp</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:uNZCzzTY_dg</id>
+  <yt:videoId>uNZCzzTY_dg</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Fix the Late-Binding Lambda Trap</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=uNZCzzTY_dg"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T04:03:34+00:00</published>
+  <updated>2026-01-09T15:59:37+00:00</updated>
+  <media:group>
+   <media:title>How to Fix the Late-Binding Lambda Trap</media:title>
+   <media:content url="https://www.youtube.com/v/uNZCzzTY_dg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/uNZCzzTY_dg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Every lambda sees the last loop value unless you lock it.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, lambda, late binding, gotcha, howto, closures</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:IZ5lu6q0nq8</id>
+  <yt:videoId>IZ5lu6q0nq8</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why does this Python cache leak user data?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=IZ5lu6q0nq8"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T03:40:03+00:00</published>
+  <updated>2026-01-18T00:01:03+00:00</updated>
+  <media:group>
+   <media:title>Why does this Python cache leak user data?</media:title>
+   <media:content url="https://www.youtube.com/v/IZ5lu6q0nq8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/IZ5lu6q0nq8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this Python cache leak user data between sessions. The Python code caches a function that reads a global current_user, so different users get each other's data. In Python apps this is a privacy incident.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python lru_cache, python data leak, python privacy bug, python caching, python user data</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:7I2NAoq2WbI</id>
+  <yt:videoId>7I2NAoq2WbI</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python zip merge?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7I2NAoq2WbI"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-13T02:26:19+00:00</published>
+  <updated>2026-01-12T10:26:26+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python zip merge?</media:title>
+   <media:content url="https://www.youtube.com/v/7I2NAoq2WbI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/7I2NAoq2WbI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python zip merge in a batch job. The Python code zips two lists of different lengths, silently dropping trailing items. In Python pipelines this loses data without errors.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python zip bug, python data loss, python batch job, python list bug, python pipeline</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2E0J2gtNJk0</id>
+  <yt:videoId>2E0J2gtNJk0</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>What's wrong with this Python HMAC check?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2E0J2gtNJk0"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-12T23:49:25+00:00</published>
+  <updated>2026-01-12T07:49:36+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this Python HMAC check?</media:title>
+   <media:content url="https://www.youtube.com/v/2E0J2gtNJk0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/2E0J2gtNJk0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this Python HMAC check in a webhook handler. The Python code compares signatures with ==, which leaks timing information. In Python security this allows signature guessing.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python hmac, python timing attack, python security bug, python webhook, python auth</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9Bbw057ucoo</id>
+  <yt:videoId>9Bbw057ucoo</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Keep Temporary Files From Vanishing</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9Bbw057ucoo"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-12T23:09:37+00:00</published>
+  <updated>2026-01-12T11:09:43+00:00</updated>
+  <media:group>
+   <media:title>How to Keep Temporary Files From Vanishing</media:title>
+   <media:content url="https://www.youtube.com/v/9Bbw057ucoo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9Bbw057ucoo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>NamedTemporaryFile deletes by default after closing.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, tempfile, files, howto, debugging</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:pmWsBjrlAcA</id>
+  <yt:videoId>pmWsBjrlAcA</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Merge Two Dictionaries</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=pmWsBjrlAcA"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-12T22:03:34+00:00</published>
+  <updated>2026-01-09T15:59:37+00:00</updated>
+  <media:group>
+   <media:title>How to Merge Two Dictionaries</media:title>
+   <media:content url="https://www.youtube.com/v/pmWsBjrlAcA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/pmWsBjrlAcA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Modern Python dictionary merging with the new | operator. Clean and simple!</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, dictionary, merge, operator, python39, tutorial</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2fIv3M1qd-g</id>
+  <yt:videoId>2fIv3M1qd-g</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why are these Python tokens predictable?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2fIv3M1qd-g"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-12T21:40:03+00:00</published>
+  <updated>2026-01-13T15:06:24+00:00</updated>
+  <media:group>
+   <media:title>Why are these Python tokens predictable?</media:title>
+   <media:content url="https://www.youtube.com/v/2fIv3M1qd-g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/2fIv3M1qd-g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why are these Python tokens predictable in an auth service. The Python code seeds random with user input, so every token becomes repeatable. In Python security this enables account takeover and replay.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python token bug, python random seed, python security, python auth, predictable tokens</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:SyrZkW4PVt4</id>
+  <yt:videoId>SyrZkW4PVt4</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Stop try finally From Overwriting Returns</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=SyrZkW4PVt4"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-12T19:33:08+00:00</published>
+  <updated>2026-01-12T10:33:11+00:00</updated>
+  <media:group>
+   <media:title>How to Stop try finally From Overwriting Returns</media:title>
+   <media:content url="https://www.youtube.com/v/SyrZkW4PVt4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/SyrZkW4PVt4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A return in finally can erase success or failure.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, finally, return bug, howto, exceptions</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:P9pXijEcLQ8</id>
+  <yt:videoId>P9pXijEcLQ8</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why does this Python retry charge customers twice?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=P9pXijEcLQ8"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-12T17:49:25+00:00</published>
+  <updated>2026-01-12T07:49:32+00:00</updated>
+  <media:group>
+   <media:title>Why does this Python retry charge customers twice?</media:title>
+   <media:content url="https://www.youtube.com/v/P9pXijEcLQ8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/P9pXijEcLQ8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this Python retry logic charge customers twice in production. The Python code retries a payment call after a timeout without an idempotency key, so the gateway processes the same charge again. In Python billing services this creates duplicate charges, refunds, and support tickets.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python retry bug, python idempotency, python payment api, double charge, python timeout</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:mwX0gUqRzlQ</id>
+  <yt:videoId>mwX0gUqRzlQ</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why are these Python IDs colliding?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=mwX0gUqRzlQ"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-12T17:26:19+00:00</published>
+  <updated>2026-01-12T10:26:22+00:00</updated>
+  <media:group>
+   <media:title>Why are these Python IDs colliding?</media:title>
+   <media:content url="https://www.youtube.com/v/mwX0gUqRzlQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/mwX0gUqRzlQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why are these Python IDs colliding under load. The Python code truncates UUIDs for short IDs, which increases collision probability. In Python systems this overwrites records.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python uuid collision, python id bug, python data loss, python database, python scaling</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Nw4cs0ovIMo</id>
+  <yt:videoId>Nw4cs0ovIMo</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Stop map From Disappearing After One Use</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Nw4cs0ovIMo"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-12T16:09:37+00:00</published>
+  <updated>2026-01-12T11:09:40+00:00</updated>
+  <media:group>
+   <media:title>How to Stop map From Disappearing After One Use</media:title>
+   <media:content url="https://www.youtube.com/v/Nw4cs0ovIMo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Nw4cs0ovIMo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>map is an iterator in Python 3 and gets consumed.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, map, iterator, exhaustion, howto</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:3guNB_YacGE</id>
+  <yt:videoId>3guNB_YacGE</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>How to Fix strip Removing the Wrong Characters</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=3guNB_YacGE"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-12T16:03:34+00:00</published>
+  <updated>2026-01-09T15:59:37+00:00</updated>
+  <media:group>
+   <media:title>How to Fix strip Removing the Wrong Characters</media:title>
+   <media:content url="https://www.youtube.com/v/3guNB_YacGE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/3guNB_YacGE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>strip does not remove a substring. It removes a set.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>python, strip, string bug, howto, gotcha</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_RxbgoiZVfM</id>
+  <yt:videoId>_RxbgoiZVfM</yt:videoId>
+  <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
+  <title>Why is this Python session token weak?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_RxbgoiZVfM"/>
+  <author>
+   <name>Python Peak</name>
+   <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
+  </author>
+  <published>2026-01-12T15:40:03+00:00</published>
+  <updated>2026-01-11T11:40:25+00:00</updated>
+  <media:group>
+   <media:title>Why is this Python session token weak?</media:title>
+   <media:content url="https://www.youtube.com/v/_RxbgoiZVfM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/_RxbgoiZVfM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why is this Python session token weak in production. The Python code uses random instead of secrets, which is predictable under load. In Python auth systems this risks session hijacking.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Science &amp; Technology</media:category>
+   <media:keywords>whats wrong with this python code, python bug, python production bug, python debugging, python backend, python code review, python mistake, python best practices, python reliability, python incident, python api, python engineering, python secrets, python random token, python auth bug, python security, python session</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:HFI6RKXUPZo</id>
   <yt:videoId>HFI6RKXUPZo</yt:videoId>
   <yt:channelId>UCyxR3ualvHiBvzyhx69aEIw</yt:channelId>
@@ -171,7 +1799,7 @@
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-12T01:21:38+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-15T18:00:05+00:00</updated>
   <media:group>
    <media:title>What's wrong with this Python cache read?</media:title>
    <media:content url="https://www.youtube.com/v/e2xIU-tgPH4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -196,7 +1824,7 @@
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-11T22:03:34+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-16T12:01:41+00:00</updated>
   <media:group>
    <media:title>How to Check If List Has Duplicates</media:title>
    <media:content url="https://www.youtube.com/v/aqJ1mjtgAW4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -448,7 +2076,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-11T01:21:38+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-13T00:00:54+00:00</updated>
   <media:group>
    <media:title>Why does this Python cache serve the wrong language?</media:title>
    <media:content url="https://www.youtube.com/v/YA1sMwee9Z4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -723,7 +2351,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-09T22:03:34+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-13T12:00:05+00:00</updated>
   <media:group>
    <media:title>How to Catch Silent Dict Key Overwrites</media:title>
    <media:content url="https://www.youtube.com/v/5bzGjoEqNWk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -898,7 +2526,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-07T18:50:44+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-12T18:00:15+00:00</updated>
   <media:group>
    <media:title>Extended Unpacking: *rest vs Manual Array Work!</media:title>
    <media:content url="https://www.youtube.com/v/X4lVreFpGjw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -923,7 +2551,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-07T16:25:43+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-17T20:05:06+00:00</updated>
   <media:group>
    <media:title>Python vs JS Ticketing Replay Gate</media:title>
    <media:content url="https://www.youtube.com/v/GqGezI9ubQo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -973,7 +2601,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-07T07:00:49+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-13T10:05:05+00:00</updated>
   <media:group>
    <media:title>Rainbow Spiral Burst</media:title>
    <media:content url="https://www.youtube.com/v/P3Dm_tfloX4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -998,7 +2626,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-07T05:36:31+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-14T12:02:39+00:00</updated>
   <media:group>
    <media:title>Signed URL Expiry That Stops Hotlink Pirates</media:title>
    <media:content url="https://www.youtube.com/v/XWW_q6HVGMQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1073,7 +2701,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-06T19:25:43+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-17T12:00:54+00:00</updated>
   <media:group>
    <media:title>Python vs JS Dual-Key Rotation: Zero Downtime</media:title>
    <media:content url="https://www.youtube.com/v/yarj6GVFlhU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1198,7 +2826,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-06T08:36:31+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-14T12:02:38+00:00</updated>
   <media:group>
    <media:title>Python vs PHP Kill Switch: Feature Flag Panic Button</media:title>
    <media:content url="https://www.youtube.com/v/8TxdmvBETps?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1273,7 +2901,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-05T22:25:43+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-15T15:05:54+00:00</updated>
   <media:group>
    <media:title>Python vs JS Signed URLs: Hotlink Pirates Blocked</media:title>
    <media:content url="https://www.youtube.com/v/sr5LSgTfZbE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1373,7 +3001,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-05T13:21:54+00:00</published>
-  <updated>2026-01-12T12:02:08+00:00</updated>
+  <updated>2026-01-13T10:05:55+00:00</updated>
   <media:group>
    <media:title>this Keyword vs self: Object Binding CONFUSION!</media:title>
    <media:content url="https://www.youtube.com/v/Bn9biXJX-iE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1623,7 +3251,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-04T10:21:54+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-15T18:00:15+00:00</updated>
   <media:group>
    <media:title>Indentation vs Braces: THE HOLY WAR of Programming!</media:title>
    <media:content url="https://www.youtube.com/v/8TtaYmL2TTE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1748,7 +3376,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-03T21:25:43+00:00</published>
-  <updated>2026-01-09T18:00:06+00:00</updated>
+  <updated>2026-01-14T00:01:48+00:00</updated>
   <media:group>
    <media:title>Python vs JS Loot Box Replay Stopper</media:title>
    <media:content url="https://www.youtube.com/v/w1Uu-DqWNw4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1773,7 +3401,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-03T17:36:31+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-17T15:05:23+00:00</updated>
   <media:group>
    <media:title>PII Redactor That Keeps Support Logs Safe</media:title>
    <media:content url="https://www.youtube.com/v/WYPyYXgno0Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1923,7 +3551,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-03T07:21:54+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-14T12:02:25+00:00</updated>
   <media:group>
    <media:title>Range vs For Loop: Iteration Philosophy CLASH!</media:title>
    <media:content url="https://www.youtube.com/v/itp5FRs6osI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2098,7 +3726,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-02T17:25:43+00:00</published>
-  <updated>2025-12-30T21:26:22+00:00</updated>
+  <updated>2026-01-14T00:01:07+00:00</updated>
   <media:group>
    <media:title>Python vs JS Sponsor Donation Replay Lock</media:title>
    <media:content url="https://www.youtube.com/v/FBgDpK9PDiM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2173,7 +3801,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-02T13:36:31+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-18T00:05:53+00:00</updated>
   <media:group>
    <media:title>Fraud Signup Velocity Trap That Saves Launch Day</media:title>
    <media:content url="https://www.youtube.com/v/jHN63ahs4A8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2273,7 +3901,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-02T04:21:54+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-12T18:00:56+00:00</updated>
   <media:group>
    <media:title>None vs null vs undefined: The VOID Trinity!</media:title>
    <media:content url="https://www.youtube.com/v/tzv8prBDGJA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2323,7 +3951,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-02T03:50:44+00:00</published>
-  <updated>2026-01-11T20:05:05+00:00</updated>
+  <updated>2026-01-17T18:01:14+00:00</updated>
   <media:group>
    <media:title>Array Slicing: Python's [::-1] vs PHP Functions!</media:title>
    <media:content url="https://www.youtube.com/v/N2t3ureX7QQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2498,7 +4126,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2026-01-01T13:52:28+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-17T10:05:03+00:00</updated>
   <media:group>
    <media:title>Deep Copy List via 2 Methods</media:title>
    <media:content url="https://www.youtube.com/v/QXupGxPGP0I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2748,7 +4376,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-31T23:25:43+00:00</published>
-  <updated>2026-01-02T20:05:09+00:00</updated>
+  <updated>2026-01-16T12:01:40+00:00</updated>
   <media:group>
    <media:title>Python vs JS Tip Jar Replay Lock</media:title>
    <media:content url="https://www.youtube.com/v/xyvU8rpxB0o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2773,7 +4401,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-31T22:11:01+00:00</published>
-  <updated>2026-01-10T16:47:26+00:00</updated>
+  <updated>2026-01-12T18:00:58+00:00</updated>
   <media:group>
    <media:title>YAML Load Executes Arbitrary Code Compromising 470 Servers?!</media:title>
    <media:content url="https://www.youtube.com/v/Lvvwf-SaDeE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2873,7 +4501,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-31T16:11:01+00:00</published>
-  <updated>2026-01-02T18:02:35+00:00</updated>
+  <updated>2026-01-16T18:00:04+00:00</updated>
   <media:group>
    <media:title>Unicode Encoding Corrupts 2.3M Customer Names Permanently?!</media:title>
    <media:content url="https://www.youtube.com/v/MqtjSdp85uY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2973,7 +4601,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-31T09:25:43+00:00</published>
-  <updated>2025-12-30T21:25:51+00:00</updated>
+  <updated>2026-01-14T20:05:15+00:00</updated>
   <media:group>
    <media:title>Python vs JS Inventory TTL: Flash Sale Lifeline</media:title>
    <media:content url="https://www.youtube.com/v/hGE_FnpsJ8k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -3198,7 +4826,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-30T21:50:44+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-14T20:05:05+00:00</updated>
   <media:group>
    <media:title>try except vs try catch: Exception Handling Showdown</media:title>
    <media:content url="https://www.youtube.com/v/fzPUy943C7o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -3223,7 +4851,7 @@ In high-concurrency Python services, this causes latency spikes and timeouts tha
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-30T18:51:58+00:00</published>
-  <updated>2026-01-02T12:00:55+00:00</updated>
+  <updated>2026-01-18T00:00:06+00:00</updated>
   <media:group>
    <media:title>Python vs JS Resumable Uploads: WiFi Rage Quit Proof</media:title>
    <media:content url="https://www.youtube.com/v/gjChLZcOPas?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -3574,7 +5202,7 @@ Nested loops fill only the border cells to form a hollow square using minimal lo
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-29T10:52:28+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-13T12:00:54+00:00</updated>
   <media:group>
    <media:title>Check if Key Exists in Dictionary via 3 Methods</media:title>
    <media:content url="https://www.youtube.com/v/T9nYijhyTyE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -3900,7 +5528,7 @@ Uses a polynomial inequality to plot a heart shape entirely with math and loops.
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-28T09:52:28+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-13T12:00:13+00:00</updated>
   <media:group>
    <media:title>Get Current Date via 2 Methods</media:title>
    <media:content url="https://www.youtube.com/v/ENBCvmw9hFk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -4302,7 +5930,7 @@ Uses the parity of row plus column indices to alternate characters like a chessb
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-27T03:55:25+00:00</published>
-  <updated>2026-01-09T15:05:07+00:00</updated>
+  <updated>2026-01-12T18:00:55+00:00</updated>
   <media:group>
    <media:title>List Comprehensions vs Array Methods: The Battle of Elegance</media:title>
    <media:content url="https://www.youtube.com/v/-m0ol7OGSM8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -4427,7 +6055,7 @@ Uses the parity of row plus column indices to alternate characters like a chessb
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-26T16:06:22+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-17T10:06:01+00:00</updated>
   <media:group>
    <media:title>Turbocharge Stop Missing Trick Plot With Python</media:title>
    <media:content url="https://www.youtube.com/v/6Ju8-pxAy2Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -4730,7 +6358,7 @@ Constructs a full diamond by stacking an upward and downward pyramid back-to-bac
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-24T10:00:49+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-16T20:05:12+00:00</updated>
   <media:group>
    <media:title>Bubble Cluster Vertical</media:title>
    <media:content url="https://www.youtube.com/v/7efTk8vU8RM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -4806,7 +6434,7 @@ Simple but punchy console banner that frames text with repeated characters.</med
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-23T23:00:36+00:00</published>
-  <updated>2026-01-10T12:00:06+00:00</updated>
+  <updated>2026-01-17T20:05:54+00:00</updated>
   <media:group>
    <media:title>Hypnotic Spiral Squares</media:title>
    <media:content url="https://www.youtube.com/v/DH8IOfrnQCE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -4831,7 +6459,7 @@ Simple but punchy console banner that frames text with repeated characters.</med
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-23T06:00:36+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-17T18:00:04+00:00</updated>
   <media:group>
    <media:title>Fractal Branches Vertical</media:title>
    <media:content url="https://www.youtube.com/v/cwNXstaxEW4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -4931,7 +6559,7 @@ Simple but punchy console banner that frames text with repeated characters.</med
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-22T12:06:22+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-14T00:05:51+00:00</updated>
   <media:group>
    <media:title>Python Creates Gradient Illusion In ASCII</media:title>
    <media:content url="https://www.youtube.com/v/_0UCY8as02s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -4956,7 +6584,7 @@ Simple but punchy console banner that frames text with repeated characters.</med
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-22T03:52:28+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-16T15:05:04+00:00</updated>
   <media:group>
    <media:title>Create Dictionary from Lists via 2 Methods</media:title>
    <media:content url="https://www.youtube.com/v/LEfDpQUoJns?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -5081,7 +6709,7 @@ Simple but punchy console banner that frames text with repeated characters.</med
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-21T02:52:28+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-14T15:07:23+00:00</updated>
   <media:group>
    <media:title>Get Dictionary Values via 2 Methods</media:title>
    <media:content url="https://www.youtube.com/v/tFH6m6b65j8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -5356,7 +6984,7 @@ Simple but punchy console banner that frames text with repeated characters.</med
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-19T04:06:22+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-13T12:00:53+00:00</updated>
   <media:group>
    <media:title>Python Strikes With ASCII Lightning Bolt</media:title>
    <media:content url="https://www.youtube.com/v/boSqIBiMQHE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -5932,7 +7560,7 @@ Objects that support reversed()</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-15T10:29:22+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-15T10:05:05+00:00</updated>
   <media:group>
    <media:title>Python Turtle - Aurora Borealis Waves</media:title>
    <media:content url="https://www.youtube.com/v/pj0NXAk_Wfc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -6082,7 +7710,7 @@ Objects that support reversed()</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-14T04:29:22+00:00</published>
-  <updated>2026-01-09T20:06:40+00:00</updated>
+  <updated>2026-01-14T18:02:27+00:00</updated>
   <media:group>
    <media:title>Python Turtle - Cosmic Mandelbrot Spiral</media:title>
    <media:content url="https://www.youtube.com/v/AfYKy6yhh_s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -6459,7 +8087,7 @@ Regular dict (Python 3.7+ maintains order, but OrderedDict is explicit)</media:d
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-12T07:29:22+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-16T10:05:13+00:00</updated>
   <media:group>
    <media:title>Python Turtle - Chakra Energy Centers</media:title>
    <media:content url="https://www.youtube.com/v/jODwAEIw-3A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -6610,7 +8238,7 @@ Implement set-like behavior</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-11T18:38:38+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-15T18:00:45+00:00</updated>
   <media:group>
    <media:title>Python Turtle - Quantum Mandala Spiral</media:title>
    <media:content url="https://www.youtube.com/v/NVelSONAuAU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -6710,7 +8338,7 @@ Implement set-like behavior</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-11T12:38:38+00:00</published>
-  <updated>2026-01-09T15:59:37+00:00</updated>
+  <updated>2026-01-17T12:00:13+00:00</updated>
   <media:group>
    <media:title>Python Turtle - Infinity Symbol Dance</media:title>
    <media:content url="https://www.youtube.com/v/q4mcnT-KfrY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -7137,7 +8765,7 @@ Thread-safe queue operations</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-09T19:56:58+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-17T12:00:53+00:00</updated>
   <media:group>
    <media:title>ContextVar Request Trace</media:title>
    <media:content url="https://www.youtube.com/v/Su2tQFPhU5s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -7368,7 +8996,7 @@ Simulate opening files</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-07T13:00:46+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-17T15:05:09+00:00</updated>
   <media:group>
    <media:title>Check if Prime Number via 2 Methods</media:title>
    <media:content url="https://www.youtube.com/v/KEXdB4-QeM0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -7444,7 +9072,7 @@ Shows how late binding makes loop-created lambdas share the final value unless e
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-07T04:18:54+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-13T00:00:52+00:00</updated>
   <media:group>
    <media:title>Copy Paste Code Hell</media:title>
    <media:content url="https://www.youtube.com/v/1sbm_gYJmdo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -7586,7 +9214,7 @@ Encoding matters! This Code Crimes shows why string/bytes distinction is importa
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-06T00:18:54+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-18T00:05:14+00:00</updated>
   <media:group>
    <media:title>Variable Shadowing Madness</media:title>
    <media:content url="https://www.youtube.com/v/7WCJUsrc9HA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -7729,7 +9357,7 @@ Multiple configuration sources</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-05T06:00:46+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-15T18:00:44+00:00</updated>
   <media:group>
    <media:title>Repeat String via 3 Methods</media:title>
    <media:content url="https://www.youtube.com/v/2H8HkF92rcw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -7913,7 +9541,7 @@ Clean code starts with good naming!
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-04T06:18:54+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-18T00:05:04+00:00</updated>
   <media:group>
    <media:title>File Path String Concatenation</media:title>
    <media:content url="https://www.youtube.com/v/B-67dJB1buU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -8023,7 +9651,7 @@ Configuration layers</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-03T16:18:54+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-18T00:01:02+00:00</updated>
   <media:group>
    <media:title>Global State Chaos</media:title>
    <media:content url="https://www.youtube.com/v/DFKoRnUXlDU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -8343,7 +9971,7 @@ Ensure close() is called even if exception occurs</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-02T12:18:54+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-17T20:05:14+00:00</updated>
   <media:group>
    <media:title>Type Confusion Madness</media:title>
    <media:content url="https://www.youtube.com/v/sSa2NoZGbHo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -8403,7 +10031,7 @@ Type stability makes code predictable!
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-02T10:36:36+00:00</published>
-  <updated>2026-01-10T10:05:04+00:00</updated>
+  <updated>2026-01-15T11:39:18+00:00</updated>
   <media:group>
    <media:title>Set Difference Operation Explained</media:title>
    <media:content url="https://www.youtube.com/v/xQ9L7Bi2WGQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -8453,7 +10081,7 @@ Type stability makes code predictable!
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-02T08:30:10+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-15T15:05:05+00:00</updated>
   <media:group>
    <media:title>Python Combo That Nails You Won Believe Comment</media:title>
    <media:content url="https://www.youtube.com/v/5EIYYxiy_lM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -8478,7 +10106,7 @@ Type stability makes code predictable!
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-02T06:28:26+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-17T15:06:05+00:00</updated>
   <media:group>
    <media:title>Find GCD via 3 Methods</media:title>
    <media:content url="https://www.youtube.com/v/3poNwupNX1s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -8586,7 +10214,7 @@ Generators save memory! This Code Crimes shows why generator misuse is wasteful.
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-01T15:21:54+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-14T18:02:51+00:00</updated>
   <media:group>
    <media:title>12-Second Python Fix For Stop Missing Trick Subscriber</media:title>
    <media:content url="https://www.youtube.com/v/1W5G9dGV7pg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -8695,7 +10323,7 @@ Deep nesting kills readability!
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-12-01T07:52:28+00:00</published>
-  <updated>2026-01-02T10:05:04+00:00</updated>
+  <updated>2026-01-13T00:05:50+00:00</updated>
   <media:group>
    <media:title>Insert Item in List via 3 Methods</media:title>
    <media:content url="https://www.youtube.com/v/gg5PV_b0xGM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -8797,7 +10425,7 @@ Base named tuple</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-30T21:37:04+00:00</published>
-  <updated>2025-12-09T16:38:29+00:00</updated>
+  <updated>2026-01-15T20:05:41+00:00</updated>
   <media:group>
    <media:title>Unicode Decode Error Cant Decode</media:title>
    <media:content url="https://www.youtube.com/v/jWICm8U0a90?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -9089,7 +10717,7 @@ Comprehensions are great, but readability matters! This Code Crimes shows when t
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-30T02:23:22+00:00</published>
-  <updated>2026-01-12T00:00:55+00:00</updated>
+  <updated>2026-01-16T15:06:14+00:00</updated>
   <media:group>
    <media:title>Generator Exit Generator Closed</media:title>
    <media:content url="https://www.youtube.com/v/hmXFTkJUod0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -9216,7 +10844,7 @@ Default list</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-29T16:28:26+00:00</published>
-  <updated>2026-01-09T15:59:36+00:00</updated>
+  <updated>2026-01-16T12:01:40+00:00</updated>
   <media:group>
    <media:title>Copy File via 3 Methods</media:title>
    <media:content url="https://www.youtube.com/v/z3y_6vRb9hY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -9324,7 +10952,7 @@ Single responsibility principle! This Code Crimes shows why function size matter
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-29T05:52:28+00:00</published>
-  <updated>2025-12-19T23:50:43+00:00</updated>
+  <updated>2026-01-13T18:01:33+00:00</updated>
   <media:group>
    <media:title>Delete File via 3 Methods</media:title>
    <media:content url="https://www.youtube.com/v/mKfvVMZl69M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -9559,7 +11187,7 @@ Deque as queue (FIFO)</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-28T11:36:52+00:00</published>
-  <updated>2025-12-09T16:38:29+00:00</updated>
+  <updated>2026-01-14T00:05:12+00:00</updated>
   <media:group>
    <media:title>Python Collections Userstring</media:title>
    <media:content url="https://www.youtube.com/v/Rzzi7G_TmkU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -9585,7 +11213,7 @@ Extend string functionality</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-28T10:23:22+00:00</published>
-  <updated>2025-12-19T23:50:38+00:00</updated>
+  <updated>2026-01-16T18:00:12+00:00</updated>
   <media:group>
    <media:title>Infinite Loop Broke My Computer</media:title>
    <media:content url="https://www.youtube.com/v/Uy42SegHwYA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -9718,7 +11346,7 @@ Efficiency matters! This Code Crimes shows why unnecessary copying is wasteful.
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-28T08:56:58+00:00</published>
-  <updated>2025-12-25T00:00:12+00:00</updated>
+  <updated>2026-01-14T00:05:03+00:00</updated>
   <media:group>
    <media:title>Bisect Sorted Milestones</media:title>
    <media:content url="https://www.youtube.com/v/sgGL8uxbI-8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -10216,7 +11844,7 @@ Create async context managers with decorator</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-27T01:48:52+00:00</published>
-  <updated>2026-01-10T16:43:47+00:00</updated>
+  <updated>2026-01-16T15:05:14+00:00</updated>
   <media:group>
    <media:title>Stop Ignoring Upgrade Keyword Highlight Manual In Python</media:title>
    <media:content url="https://www.youtube.com/v/1OeL91puAhg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -10578,7 +12206,7 @@ Abstract base classes enforce method implementation and enable polymorphism</med
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-26T09:21:50+00:00</published>
-  <updated>2026-01-10T12:01:06+00:00</updated>
+  <updated>2026-01-17T10:05:22+00:00</updated>
   <media:group>
    <media:title>What is a context manager in Python?</media:title>
    <media:content url="https://www.youtube.com/v/nmkXvHbVvcg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -10603,7 +12231,7 @@ Abstract base classes enforce method implementation and enable polymorphism</med
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-26T05:19:25+00:00</published>
-  <updated>2026-01-11T00:01:07+00:00</updated>
+  <updated>2026-01-13T18:00:12+00:00</updated>
   <media:group>
    <media:title>Python Advanced Dictionary Operations With Defaultdict</media:title>
    <media:content url="https://www.youtube.com/v/n4Ni1BDxPmU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -10891,7 +12519,7 @@ Create context variable</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-25T20:06:22+00:00</published>
-  <updated>2025-12-25T15:05:04+00:00</updated>
+  <updated>2026-01-16T10:06:48+00:00</updated>
   <media:group>
    <media:title>Python Builds Kaleidoscope</media:title>
    <media:content url="https://www.youtube.com/v/b57T5HYbcZo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -11102,7 +12730,7 @@ Readable code uses names! This Code Crimes shows why constants matter.
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-25T09:21:54+00:00</published>
-  <updated>2025-12-27T18:00:58+00:00</updated>
+  <updated>2026-01-16T12:00:17+00:00</updated>
   <media:group>
    <media:title>This Python Move Crushes Power Move Viral Words</media:title>
    <media:content url="https://www.youtube.com/v/L2iWZKKcU3M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -11180,7 +12808,7 @@ Shallow copy</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-25T02:36:54+00:00</published>
-  <updated>2025-12-26T15:05:53+00:00</updated>
+  <updated>2026-01-18T00:01:04+00:00</updated>
   <media:group>
    <media:title>Python Lightning Trick: Power Move Hashtag Counter</media:title>
    <media:content url="https://www.youtube.com/v/zaWj_rE3FGE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -11517,7 +13145,7 @@ Default configuration</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-24T08:36:52+00:00</published>
-  <updated>2025-11-25T20:10:49+00:00</updated>
+  <updated>2026-01-16T18:01:17+00:00</updated>
   <media:group>
    <media:title>Python Context Managers With Multiple Resources</media:title>
    <media:content url="https://www.youtube.com/v/EH4LiF2U6jM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -11601,7 +13229,7 @@ This is one of Python's most common gotchas!
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-24T06:36:54+00:00</published>
-  <updated>2026-01-04T10:05:14+00:00</updated>
+  <updated>2026-01-16T20:05:04+00:00</updated>
   <media:group>
    <media:title>Python Attack Plan For Power Move Share Ratio</media:title>
    <media:content url="https://www.youtube.com/v/AuMT6WTx-YQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -11727,7 +13355,7 @@ Dataclasses support advanced features for complex data structures</media:descrip
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-24T02:30:10+00:00</published>
-  <updated>2025-12-19T23:45:36+00:00</updated>
+  <updated>2026-01-15T12:01:27+00:00</updated>
   <media:group>
    <media:title>F-Strings - String Concatenation vs F-Strings</media:title>
    <media:content url="https://www.youtube.com/v/BUQ7bZClk9E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -11777,7 +13405,7 @@ Dataclasses support advanced features for complex data structures</media:descrip
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-23T22:25:32+00:00</published>
-  <updated>2025-12-25T12:01:24+00:00</updated>
+  <updated>2026-01-15T12:00:05+00:00</updated>
   <media:group>
    <media:title>Python Contextlib Redirect Stdout</media:title>
    <media:content url="https://www.youtube.com/v/rkjbkpaayeY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -11804,7 +13432,7 @@ Capture stdout</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-23T20:45:14+00:00</published>
-  <updated>2025-12-25T10:05:12+00:00</updated>
+  <updated>2026-01-14T20:05:56+00:00</updated>
   <media:group>
    <media:title>Python Wizardry: Master Viral Scoreboard Manual</media:title>
    <media:content url="https://www.youtube.com/v/5yHu1CqJNPE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -11905,7 +13533,7 @@ Highlights how dict.fromkeys reuses one mutable object, making every key act lik
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-23T18:18:54+00:00</published>
-  <updated>2026-01-11T18:00:05+00:00</updated>
+  <updated>2026-01-15T12:01:28+00:00</updated>
   <media:group>
    <media:title>String Comparison Nightmare</media:title>
    <media:content url="https://www.youtube.com/v/yCEVP4eKhyE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -12065,7 +13693,7 @@ Generator function</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-23T07:19:25+00:00</published>
-  <updated>2025-12-25T00:00:04+00:00</updated>
+  <updated>2026-01-16T18:01:17+00:00</updated>
   <media:group>
    <media:title>Named Tuples vs Regular Tuples</media:title>
    <media:content url="https://www.youtube.com/v/4Vnfh14-1SU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -12167,7 +13795,7 @@ Using field(), post_init, and inheritance</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-23T04:30:10+00:00</published>
-  <updated>2026-01-04T12:00:50+00:00</updated>
+  <updated>2026-01-13T18:01:35+00:00</updated>
   <media:group>
    <media:title>Python Hack Makes Stop Missing Trick Emoji Effortless</media:title>
    <media:content url="https://www.youtube.com/v/NCwKMkP-gBk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -12327,7 +13955,7 @@ Basic named tuple</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-22T22:53:51+00:00</published>
-  <updated>2025-12-07T20:00:11+00:00</updated>
+  <updated>2026-01-17T18:01:15+00:00</updated>
   <media:group>
    <media:title>Zoneinfo Release Planner</media:title>
    <media:content url="https://www.youtube.com/v/2OYa308PPXs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -12591,7 +14219,7 @@ Capture stderr</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-22T12:06:22+00:00</published>
-  <updated>2025-12-22T18:00:12+00:00</updated>
+  <updated>2026-01-16T12:00:05+00:00</updated>
   <media:group>
    <media:title>Python Draws Moire Lines</media:title>
    <media:content url="https://www.youtube.com/v/exsPw1478wE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -12879,7 +14507,7 @@ Decorators with arguments allow for flexible and reusable function enhancements<
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-21T22:55:12+00:00</published>
-  <updated>2026-01-04T15:20:51+00:00</updated>
+  <updated>2026-01-15T20:06:23+00:00</updated>
   <media:group>
    <media:title>Python Dictionary Merge Trick That Saves Time</media:title>
    <media:content url="https://www.youtube.com/v/X3EWzg2vgMk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -12980,7 +14608,7 @@ This example implements a typed attribute descriptor</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-21T18:36:54+00:00</published>
-  <updated>2025-12-22T17:00:37+00:00</updated>
+  <updated>2026-01-15T10:06:13+00:00</updated>
   <media:group>
    <media:title>Watch Python Instantly Master Master Title Split</media:title>
    <media:content url="https://www.youtube.com/v/AQft_VPvQnE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -13080,7 +14708,7 @@ This example implements a typed attribute descriptor</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-21T15:21:54+00:00</published>
-  <updated>2025-12-19T23:45:09+00:00</updated>
+  <updated>2026-01-15T15:05:13+00:00</updated>
   <media:group>
    <media:title>This Python Move Crushes Master Template Concatenation</media:title>
    <media:content url="https://www.youtube.com/v/imOKr_5hBDA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -13182,7 +14810,7 @@ Create context managers from generator functions</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-21T11:56:58+00:00</published>
-  <updated>2026-01-09T18:01:47+00:00</updated>
+  <updated>2026-01-15T18:00:44+00:00</updated>
   <media:group>
    <media:title>Default Argument Vault</media:title>
    <media:content url="https://www.youtube.com/v/iUwo3ECzT9k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -13266,7 +14894,7 @@ Right tool for the job! This Code Crimes shows when NOT to use classes.
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-21T08:30:10+00:00</published>
-  <updated>2025-12-19T23:51:01+00:00</updated>
+  <updated>2026-01-14T00:01:50+00:00</updated>
   <media:group>
    <media:title>Python Shortcut: Why Trend Check Flag</media:title>
    <media:content url="https://www.youtube.com/v/oSPjJCn1ths?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -13422,7 +15050,7 @@ Use nullcontext when lock not needed</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-20T22:55:12+00:00</published>
-  <updated>2026-01-06T15:05:08+00:00</updated>
+  <updated>2026-01-13T00:05:11+00:00</updated>
   <media:group>
    <media:title>Python String Repetition Trick You Need To Know</media:title>
    <media:content url="https://www.youtube.com/v/2nPuBc2XgM4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -13447,7 +15075,7 @@ Use nullcontext when lock not needed</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-20T22:36:54+00:00</published>
-  <updated>2025-12-25T17:49:39+00:00</updated>
+  <updated>2026-01-16T18:01:18+00:00</updated>
   <media:group>
    <media:title>File I - O - Manual Open vs Pathlib</media:title>
    <media:content url="https://www.youtube.com/v/XkDJO7urtHI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -13625,7 +15253,7 @@ Encode string</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-20T15:57:28+00:00</published>
-  <updated>2025-12-21T19:28:40+00:00</updated>
+  <updated>2026-01-13T00:00:53+00:00</updated>
   <media:group>
    <media:title>What Happens When You Multiply A List In Python?</media:title>
    <media:content url="https://www.youtube.com/v/f20ViVxMWt8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -13829,7 +15457,7 @@ Implement iterator protocol</media:description>
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-20T00:36:11+00:00</published>
-  <updated>2025-12-19T23:48:09+00:00</updated>
+  <updated>2026-01-13T00:00:12+00:00</updated>
   <media:group>
    <media:title>Why Does My Code Crash ONLY at 2AM</media:title>
    <media:content url="https://www.youtube.com/v/Bq1FQbApF14?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -13955,7 +15583,7 @@ Guarantee finance-safe rounding rules with Decimal quantize and custom contexts.
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-19T13:19:25+00:00</published>
-  <updated>2026-01-02T18:02:33+00:00</updated>
+  <updated>2026-01-13T10:05:15+00:00</updated>
   <media:group>
    <media:title>Python Descriptors Protocol Explained</media:title>
    <media:content url="https://www.youtube.com/v/Dy5Y_zFRtOU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -13981,7 +15609,7 @@ Descriptors enable type checking and validation at the attribute level</media:de
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-19T12:30:10+00:00</published>
-  <updated>2025-12-18T10:05:14+00:00</updated>
+  <updated>2026-01-14T00:00:53+00:00</updated>
   <media:group>
    <media:title>Python Combo That Nails Demo Set Membership Loop</media:title>
    <media:content url="https://www.youtube.com/v/fErlrqRWRcs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -14032,7 +15660,7 @@ Metaclasses allow you to add automatic validation and behavior to classes</media
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-19T08:28:26+00:00</published>
-  <updated>2025-11-25T20:10:33+00:00</updated>
+  <updated>2026-01-15T10:05:13+00:00</updated>
   <media:group>
    <media:title>Get File Extension via 3 Methods</media:title>
    <media:content url="https://www.youtube.com/v/IrShvU5n6Tc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -14082,7 +15710,7 @@ Metaclasses allow you to add automatic validation and behavior to classes</media
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-19T05:00:46+00:00</published>
-  <updated>2026-01-11T12:01:18+00:00</updated>
+  <updated>2026-01-13T15:05:13+00:00</updated>
   <media:group>
    <media:title>Python's Wild Trick For Power Move Compare Find</media:title>
    <media:content url="https://www.youtube.com/v/nz7v7nSrxbY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -14234,7 +15862,7 @@ Type hints improve code readability and enable better IDE support</media:descrip
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-18T18:53:51+00:00</published>
-  <updated>2025-12-17T08:39:26+00:00</updated>
+  <updated>2026-01-13T18:01:34+00:00</updated>
   <media:group>
    <media:title>Counterfeit Truth Toggle</media:title>
    <media:content url="https://www.youtube.com/v/Vr0mYCAqfM8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -14260,7 +15888,7 @@ Creates an object whose truthiness flips on every check, defeating assumptions a
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-18T15:42:50+00:00</published>
-  <updated>2025-11-20T17:55:06+00:00</updated>
+  <updated>2026-01-17T18:01:16+00:00</updated>
   <media:group>
    <media:title>Advanced List Comprehensions with Multiple Conditions</media:title>
    <media:content url="https://www.youtube.com/v/QvA59CAW6sE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -14311,7 +15939,7 @@ List comprehensions can include multiple conditions and nested structures for po
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-18T10:36:54+00:00</published>
-  <updated>2025-12-26T12:00:56+00:00</updated>
+  <updated>2026-01-13T00:00:04+00:00</updated>
   <media:group>
    <media:title>Why Python Wins At Stop Missing Trick Schedule</media:title>
    <media:content url="https://www.youtube.com/v/fKWc-u2G5z0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -14462,7 +16090,7 @@ Shows how list multiplication aliases the same inner list, so edits to one slot 
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-17T16:30:10+00:00</published>
-  <updated>2025-12-28T18:00:05+00:00</updated>
+  <updated>2026-01-16T20:05:52+00:00</updated>
   <media:group>
    <media:title>Filter - Map - Loops vs Functional</media:title>
    <media:content url="https://www.youtube.com/v/as3Jg6cU_zw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -14588,7 +16216,7 @@ Fan out blocking downloads using ThreadPoolExecutor and as_completed callbacks.<
    <uri>https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw</uri>
   </author>
   <published>2025-11-16T22:00:46+00:00</published>
-  <updated>2026-01-10T16:47:34+00:00</updated>
+  <updated>2026-01-17T12:00:54+00:00</updated>
   <media:group>
    <media:title>Parse JSON via 2 Methods</media:title>
    <media:content url="https://www.youtube.com/v/Uohc5WMKGE8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>

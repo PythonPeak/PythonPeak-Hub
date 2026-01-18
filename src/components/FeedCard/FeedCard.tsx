@@ -118,6 +118,34 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
         <div className={styles.achievementFlash} />
         <div className={styles.electricArc} />
         <div className={styles.comboRing} />
+        <div className={styles.rainbowWave} />
+        <div className={styles.glitchLayer} />
+        <div className={styles.magneticGlow} />
+        
+        {/* Heartbeat rings */}
+        <div className={styles.heartbeatRing} />
+        <div className={styles.heartbeatRing} />
+        
+        {/* Shockwave effect */}
+        <div className={styles.shockwave} />
+        <div className={styles.shockwave} />
+        <div className={styles.shockwave} />
+        
+        {/* Lightning bolts */}
+        <div className={styles.lightningContainer}>
+          <div className={styles.lightning} />
+          <div className={styles.lightning} />
+          <div className={styles.lightning} />
+        </div>
+        
+        {/* Floating Emojis */}
+        <div className={styles.floatingEmojis}>
+          <span className={styles.emoji}>🔥</span>
+          <span className={styles.emoji}>⭐</span>
+          <span className={styles.emoji}>💥</span>
+          <span className={styles.emoji}>✨</span>
+          <span className={styles.emoji}>🚀</span>
+        </div>
         
         {/* Streak Fire Effect */}
         <div className={styles.streakFire} />
@@ -171,8 +199,21 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
           <div className={styles.soundBar} />
         </div>
         
+        {/* Swipe Hint */}
+        <div className={styles.swipeHint}>
+          <div className={styles.swipeArrow} />
+          <div className={styles.swipeArrow} />
+          <div className={styles.swipeArrow} />
+        </div>
+        
         {/* Trophy Icon */}
         <div className={styles.trophyIcon}>🏆</div>
+        
+        {/* Hot Badge */}
+        <div className={styles.hotBadge}>HOT</div>
+        
+        {/* Viewer Count */}
+        <div className={styles.viewerCount}>1.2K watching</div>
         
         {/* Score Multiplier */}
         <div className={styles.multiplierBadge}>2x COMBO</div>
